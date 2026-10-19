@@ -1,5 +1,5 @@
 > 🛤️ **Part of [Galhoom Path](https://github.com/galhoom-path)** · Track 2 — Problem Solving  
-> This repository belongs to the **Galhoom Path** organization (**Study** · **Problem Solving** · **Interview Prep**).  
+> This repository belongs to the **Galhoom Path** organization (**Study** · **Problem Solving** · **Interview Prep** · **Projects**).  
 > → [Organization home](https://github.com/galhoom-path)
 
 # 🧠 LeetCode DSA Pareto Set
