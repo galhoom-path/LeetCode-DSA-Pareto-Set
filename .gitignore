@@ -1,0 +1,23 @@
+# Secrets / local env
+.env
+.env.*
+
+# C++ build
+*.o
+*.obj
+*.exe
+*.out
+*.app
+a.out
+build/
+cmake-build-*/
+compile_commands.json
+
+# IDE / OS
+.idea/
+.vscode/
+.vs/
+*.swp
+.DS_Store
+Thumbs.db
+*.log
