@@ -1,3 +1,7 @@
+> 🛤️ **Part of [Galhoom Path](https://github.com/galhoom-path)** · Track 2 — Problem Solving  
+> This repository belongs to the **Galhoom Path** organization (**Study** · **Problem Solving** · **Interview Prep**).  
+> → [Organization home](https://github.com/galhoom-path)
+
 # 🧠 LeetCode DSA Pareto Set
 
 > **"Master the 20% of problems that give you 80% of the results."**
