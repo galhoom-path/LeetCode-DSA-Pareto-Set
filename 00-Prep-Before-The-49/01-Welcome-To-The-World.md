@@ -44,6 +44,9 @@ Interviewers use these problems as a **compressed signal**:
 
 You are not memorizing “tricks for fun” — you are training a **thinking loop**.
 
+In a **live** coding round, that loop is also what you **say** (clarify → brute → improve → test).  
+Details: [02 · Live coding · 6 steps](./02-How-To-Practice.md#live-coding-interview--6-steps).
+
 ---
 
 ## Where people practice

@@ -142,6 +142,37 @@ No draw.io / `.png`. Format = **Mermaid in Markdown** (renders on GitHub). Detai
 
 ---
 
+### Live coding interview · 6 steps
+
+Whiteboard / shared-editor rounds score **process**, not only the final snippet.  
+Use this order every time (same spirit as industry “clarify → brute → optimize → code → test” routines, including [Manara](https://support.manara.tech/knowledge/how-to-land-a-job-at-a-global-tech-company)’s coding-interview focus):
+
+| # | Step | Say / do | Maps to this repo |
+|:---:|:---|:---|:---|
+| **1** | **Clarify** | Inputs, output, sizes, duplicates, in-place?, sorted? | 6-pass read (Part A) |
+| **2** | **Examples** | One normal + one edge **by hand** | Edge list in [03](./03-Big-O-And-Edges.md) |
+| **3** | **Brute** | Simplest correct idea + Big O — get agreement | `1-Brute-Force.c++` |
+| **4** | **Optimize** | What repeated work can you remove? New Big O | `2-Optimized.c++` → `3-Optimal.c++` |
+| **5** | **Code** | Small pieces; narrate; wait for “go” before typing if live | Your C++ files |
+| **6** | **Test** | Trace example, edges, state time/space | Comments + mental Submit |
+
+> ⚠️ **Don’t rush to code.** Leading the interview ≠ starting to type in the first minutes.  
+> Clarifying questions and a spoken brute often earn more credit than silent Optimal.
+
+**What interviewers usually watch for** (technical only — this repo’s scope):
+
+| Signal | You show it by… |
+|:---|:---|
+| Spec literacy | Asking constraints; not assuming “all positive / non-empty” |
+| Structure judgment | Naming hash / window / DFS *before* coding |
+| Improvement | Brute first, then a better Big O |
+| Communication | Thinking out loud; tradeoffs in one sentence |
+| Correctness habits | Edges + complexity after the code |
+
+Out of scope here: behavioral STAR stories, salary, resume — keep those in a separate interview-prep track if you use one.
+
+---
+
 ### Pattern recognition (the shortcut)
 
 After prep pattern sheets **06–15**, you will ask:
@@ -182,7 +213,8 @@ Full map: [05-Pattern-Map-For-The-49.md](./05-Pattern-Map-For-The-49.md).
 | Time-box a first attempt | Infinite scrolling of solutions in 30s |
 | Compare after **your** brute exists | Copy Optimal first |
 | Revise patterns weekly | Only grind random Hard |
-| Speak aloud alone | Silent coding only (interviews need talk) |
+| Speak aloud alone (mock the 6 steps) | Silent coding only (interviews need talk) |
+| Occasional timed + peer mock if you can | Only untimed grinding forever |
 
 ---
 
@@ -205,7 +237,8 @@ This folder is your **home base**; the 49 are the first **campaign**.
 ### Self-check (playbook)
 
 - [ ] I can list the 5 loop steps without looking  
+- [ ] I can list the **6 live-interview steps** (clarify → … → test)  
 - [ ] I know how Brute/Opt/Optimal map to interview talk  
-- [ ] I have a stuck protocol
+- [ ] I have a stuck protocol  
 
 ➡️ **Next →** [03-Big-O-And-Edges.md](./03-Big-O-And-Edges.md)

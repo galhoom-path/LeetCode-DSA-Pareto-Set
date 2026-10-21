@@ -232,14 +232,28 @@ flowchart TB
 
 ### Interview talking script (30–60s before code)
 
+Full 6-step live loop: [02 · How to practice](./02-How-To-Practice.md#live-coding-interview--6-steps).
+
+**Before typing (say this out loud):**
+
 1. **Restate** input / output in one sentence  
-2. **Constraints** that change the approach (sorted? unique? size?)  
+2. **Constraints** that change the approach (sorted? unique? size? in-place?)  
 3. **Two edge cases** you will handle  
 4. **Brute** idea + Big O  
 5. **Better** idea + Big O  
-6. Then code  
+6. Then code (after the interviewer is aligned)
 
 This matches the repo: Brute → Optimized → Optimal.
+
+**High-ROI clarifying questions** (ask instead of assuming):
+
+| Ask… | Why it matters |
+|:---|:---|
+| Approx. `n` / value ranges? | Chooses O(n²) vs O(n) |
+| Sorted? Unique? Duplicates OK? | Two pointers / binary search / hash |
+| In-place / extra memory OK? | Space trade-off |
+| Return indices or values? 0- or 1-based? | Wrong output format = WA |
+| Mutate the input allowed? | Sort-based approaches |
 
 ---
 

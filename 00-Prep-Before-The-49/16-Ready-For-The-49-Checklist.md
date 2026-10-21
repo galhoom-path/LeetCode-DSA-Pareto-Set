@@ -59,6 +59,12 @@ Gold standard: `01-Contains-Duplicate-…`. Create the next folder only when you
 - [ ] I know this playbook also works on **future** LeetCode problems outside the 49  
 - [ ] I will not leave empty stub files for problems I have not started yet  
 
+## 🎙️ G · Live coding habits (technical)
+
+- [ ] I can run the **6 steps**: clarify → examples → brute → optimize → code → test  
+- [ ] I ask constraints instead of assuming “non-empty / all positive / …”  
+- [ ] I can time-box practice and still narrate my thinking  
+
 ---
 
 ## 🔍 If something is still fuzzy
@@ -67,6 +73,7 @@ Gold standard: `01-Contains-Duplicate-…`. Create the next folder only when you
 |:---|:---|
 | What is problem solving / LeetCode? | [01](./01-Welcome-To-The-World.md) |
 | How to read & practice | [02](./02-How-To-Practice.md) |
+| Live coding 6 steps | [02 · Live interview](./02-How-To-Practice.md#live-coding-interview--6-steps) |
 | Big O / edges | [03](./03-Big-O-And-Edges.md) |
 | C++ for this repo | [04](./04-Cpp-For-The-49.md) |
 | Which pattern | [05](./05-Pattern-Map-For-The-49.md) |
@@ -145,6 +152,15 @@ Skip the rest of cppreference for now (templates deep dive, concurrency, ranges�
 - This repo’s three solution files per problem  
 
 ---
+
+## Interview practice (technical only)
+
+| Resource | What we take from it |
+|:---|:---|
+| [Manara — How to Land a Job…](https://support.manara.tech/knowledge/how-to-land-a-job-at-a-global-tech-company) | Coding-interview habits: clarify, examples, brute → optimize, narrate, test (see [02](./02-How-To-Practice.md#live-coding-interview--6-steps)) |
+| [Manara — improving coding skills](https://support.manara.tech/knowledge/improving-your-coding-skills) | Timed LeetCode practice; peer mocks if available |
+
+We **do not** pull behavioral STAR / full career curriculum into this repo — that stays outside the Pareto-49 goal.
 
 ## Pareto list credit
 

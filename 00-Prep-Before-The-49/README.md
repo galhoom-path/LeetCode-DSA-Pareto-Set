@@ -71,7 +71,7 @@ File number = learn order.
 |:---:|:---|:---|
 | 0 | [00-Glossary](./00-Glossary.md) | 📖 Vocabulary |
 | 1 | [01-Welcome-To-The-World](./01-Welcome-To-The-World.md) | 🌍 PS + LeetCode |
-| 2 | [02-How-To-Practice](./02-How-To-Practice.md) | 🧭 Read + playbook |
+| 2 | [02-How-To-Practice](./02-How-To-Practice.md) | 🧭 Read + playbook + live 6 steps |
 
 ### Phase B — Speak efficiency + C++
 
