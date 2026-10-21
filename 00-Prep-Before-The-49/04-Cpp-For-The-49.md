@@ -397,20 +397,16 @@ int lengthOfLongestSubstring(string s) {
 
 ---
 
-### Run a problem file locally
+### Run a problem file locally (optional)
 
-This repo’s `.c++` files include a small `main()` so you can compile and print one example.
+Each approach file has a small `main()` so you can compile it with any C++ toolchain on your machine (e.g. `g++`). This repo does **not** ship run scripts or IDE tasks — keep your environment outside the repo.
 
-From the **repo root** (needs `g++` on PATH — WinLibs MinGW is fine):
+Example:
 
 ```powershell
-.\run.ps1                              # #1 Brute
-.\run.ps1 -Problem 01 -Approach 3      # #1 Optimal
+g++ -std=c++17 -O2 -o brute.exe .\1-Brute-Force.c++
+.\brute.exe
 ```
-
-Or in Cursor: open the `.c++` file → **Terminal → Run Build Task**.
-
-Full notes: root [`README.md` · Run a solution](../README.md#-run-a-solution-c).
 
 ---
 

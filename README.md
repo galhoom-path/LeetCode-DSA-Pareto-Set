@@ -94,49 +94,13 @@ Agent rules: [`AGENTS.md`](./AGENTS.md).
 
 ---
 
-## ▶️ Run a solution (C++)
-
-Requires **g++** (MinGW / WinLibs) on your PATH:
-
-```powershell
-winget install -e --id BrechtSanders.WinLibs.POSIX.UCRT
-```
-
-### One command (recommended)
-
-From the repo root in PowerShell:
-
-```powershell
-.\run.ps1                      # problem 01 · Brute Force
-.\run.ps1 -Problem 01 -Approach 2   # Optimized
-.\run.ps1 -Problem 01 -Approach 3   # Optimal
-.\run.ps1 -File .\01-Contains-Duplicate-Arrays-Hashing-Easy\1-Brute-Force.c++
-```
-
-### Cursor / VS Code
-
-Open a `.c++` file → **Terminal → Run Build Task** (default task = compile & run the current file).
-
-### Manual
-
-```powershell
-g++ -std=c++17 -O2 -o brute.exe .\01-Contains-Duplicate-Arrays-Hashing-Easy\1-Brute-Force.c++
-.\brute.exe
-```
-
-`.exe` files are gitignored — rebuild anytime with `.\run.ps1`.
-
----
-
 ## 🗂️ Repository structure
 
 ```text
 LeetCode-DSA-Pareto-Set/
 ├── PROGRESS.md                ← your live bars + prep sheet ticks
-├── run.ps1                    ← compile + run any approach
 ├── 00-Prep-Before-The-49/     ← study reference (tick progress as you read)
 ├── 01-…/                      ← one folder per solved / in-progress problem
-├── .vscode/tasks.json         ← Run Build Task on current .c++ file
 ├── .cursor/rules/             ← C++ yours · Mermaid charts AI
 ├── AGENTS.md
 └── README.md

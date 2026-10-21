@@ -21,8 +21,7 @@ compile_commands.json
 
 # IDE / OS
 .idea/
-.vscode/*
-!.vscode/tasks.json
+.vscode/
 .vs/
 *.swp
 .DS_Store
