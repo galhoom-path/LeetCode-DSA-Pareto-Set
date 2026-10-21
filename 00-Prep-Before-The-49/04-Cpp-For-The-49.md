@@ -397,6 +397,23 @@ int lengthOfLongestSubstring(string s) {
 
 ---
 
+### Run a problem file locally
+
+This repo’s `.c++` files include a small `main()` so you can compile and print one example.
+
+From the **repo root** (needs `g++` on PATH — WinLibs MinGW is fine):
+
+```powershell
+.\run.ps1                              # #1 Brute
+.\run.ps1 -Problem 01 -Approach 3      # #1 Optimal
+```
+
+Or in Cursor: open the `.c++` file → **Terminal → Run Build Task**.
+
+Full notes: root [`README.md` · Run a solution](../README.md#-run-a-solution-c).
+
+---
+
 ### Self-check (STL)
 
 - [ ] I can pick set vs map vs stack vs queue vs heap for a pattern  
