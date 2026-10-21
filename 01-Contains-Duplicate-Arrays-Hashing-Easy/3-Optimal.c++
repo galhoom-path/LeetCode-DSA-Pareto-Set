@@ -1,29 +1,30 @@
 /*
-    Problem Link: https://leetcode.com/problems/contains-duplicate/description/
+    Problem: Contains Duplicate
+    Link:    https://leetcode.com/problems/contains-duplicate/
 
-    * This is the Optimal approach using Hash Set.
+    Approach: Optimal (hash set)
 
-    Steps
-    For the list [1, 2, 1]
-    1. Create an empty Hash Set `seen`.
-    2. Loop through each number in the array (grab number by number).
-    3. Check if the current number exists in the set.
-    4. If yes (seen before) -> return true.
-    5. If no -> add the number to the set and continue.
-    6. If the loop finishes without finding duplicates -> return false.
+    Idea:
+    Store values seen so far in an unordered_set. Average O(1) lookup — one pass detects repeats.
+    Trade O(n) extra space for O(n) time.
 
-    Description: 
-    This approach uses a Hash Set data structure which offers fast lookups (O(1) average).
-    We trade space for speed by storing elements to detect duplicates instantly.
+    Steps (example [1, 2, 1]):
+    1. Create empty set `seen`
+    2. For each num in nums
+    3. If num is already in seen → return true
+    4. Else insert num into seen
+    5. If the loop finishes → return false
 
-    Time Complexity:  O(N) - We traverse the array once, and set lookups are O(1) on average.
-    Space Complexity: O(N) - In the worst case, we store all unique elements in the set.
+    Time Complexity:  O(n) average — one pass; set lookup/insert O(1) average
+    Space Complexity: O(n)         — up to all unique elements in the set
 
-    Edge Cases Handled: 
-    - Empty arrays are handled (loop doesn't run, returns false).
-    - Single element arrays handled correctly.
+    Edge Cases:
+    - empty array      → false
+    - single element   → false
+    - all unique       → false (set size = n)
+    - duplicate exists → true as soon as the repeat is seen
 
-    Example: {1, 2, 1} -> true
+    Example: [1, 2, 1] → true
 */
 
 #include <iostream>
@@ -31,21 +32,20 @@
 #include <unordered_set>
 using namespace std;
 
-class Solution{
-	public:
-	bool containsDuplicate(vector<int>& nums){
-		unordered_set<int> seen;
-		
-		seen.reserve(nums.size()); // Reserve space to avoid rehashing
+class Solution {
+public:
+    bool containsDuplicate(vector<int>& nums) {
+        unordered_set<int> seen;
+        seen.reserve(nums.size());
 
-		for(int num : nums){
-			if(seen.contains(num)){
-				return true;
-			}
-			seen.insert(num);
-		}
-		return false;
-	}
+        for (int num : nums) {
+            if (seen.count(num)) {
+                return true;
+            }
+            seen.insert(num);
+        }
+        return false;
+    }
 };
 
 int main() {

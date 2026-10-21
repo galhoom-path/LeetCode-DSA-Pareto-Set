@@ -1,0 +1,46 @@
+---
+description: Standard for Brute / Optimized / Optimal .c++ files in each problem folder
+globs: "**/*-{Brute-Force,Optimized,Optimal}.c++"
+alwaysApply: false
+---
+
+# Problem solution `.c++` standard (gold: folder `01-Contains-Duplicate-…`)
+
+Use **01-Contains-Duplicate-Arrays-Hashing-Easy** as the template for comment layout, naming, and style.
+
+## Required header block (every approach file)
+
+```text
+Problem: <Name>
+Link:    <leetcode url>
+
+Approach: Brute Force | Optimized (…) | Optimal (…)
+
+Idea:
+<one short paragraph>
+
+Steps (example <…>):
+1. …
+
+Time Complexity:  O(…) — <why>
+Space Complexity: O(…) — <why>
+
+Edge Cases:
+- …
+
+Example: <input> → <output>
+
+Note: <optional>
+```
+
+## Code conventions
+
+- 4 spaces; `class Solution {` / `public:` / `int main()` with `return 0;`
+- Prefer `int` indices + `(int)nums.size()` (same style as prep pack)
+- Prefer `unordered_set` / `unordered_map` with `.count(key)` (portable; matches prep sheets)
+- Keep a small local `main` that prints one example — logic stays inside `Solution`
+- Approach ladder must stay honest: Brute may be slow; Optimized mid; Optimal best practical here
+
+## Sibling flowcharts
+
+When this `.c++` file is created or its control flow changes, Cursor updates the matching `*.flowchart.md` (see `solution-flowcharts` rule). Never draw.io / png.

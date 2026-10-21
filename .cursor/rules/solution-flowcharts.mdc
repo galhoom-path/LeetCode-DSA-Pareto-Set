@@ -1,0 +1,46 @@
+---
+description: You write C++; Cursor AI owns Mermaid flowcharts for each approach
+alwaysApply: true
+---
+
+# Solution flowcharts (this repo)
+
+## Division of labor
+
+- **Human:** writes and owns `1-Brute-Force.c++`, `2-Optimized.c++`, `3-Optimal.c++`.
+- **Cursor AI:** writes and owns the matching Mermaid charts:
+  - `1-Brute-Force.flowchart.md`
+  - `2-Optimized.flowchart.md`
+  - `3-Optimal.flowchart.md`
+
+Do **not** use draw.io, `.drawio`, or `.png` flowcharts.
+
+Do **not** bulk-solve the remaining 49. Only touch C++ when the human is working that problem (or explicitly asks for a review of *their* code). See root `AGENTS.md`.
+
+## When to create / update charts
+
+- After the user finishes or asks to finalize a problem folder, **or** when they ask for flowcharts.
+- Always derive the chart from the **corresponding `.c++` file** (same approach number). One chart per approach — never a single “optimal only” chart.
+- If code changes for an approach, update that approach’s `.flowchart.md` to match.
+
+## Chart file format
+
+```markdown
+# <Approach> · Flowchart — <Problem name>
+
+> Mirrors `<N>-<Approach>.c++` · Mermaid (GitHub-rendered) · maintained by Cursor AI
+
+```mermaid
+flowchart TD
+  Start([Start]) --> ...
+```
+
+**Time / space (from the C++ comments):** O(…) / O(…)
+```
+
+Rules for the Mermaid:
+
+- Use `flowchart TD` (top-down).
+- Nodes = real control-flow steps from that file (loops, conditions, returns), not a vague summary of the problem.
+- Keep it readable: prefer ≤ ~15 nodes; collapse tiny helpers if needed.
+- No images, no external tools.

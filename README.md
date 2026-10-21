@@ -6,65 +6,125 @@
 
 > **"Master the 20% of problems that give you 80% of the results."**
 
-This repository contains my **solutions to the 49 essential LeetCode problems** from **The Pareto Problem Set** — carefully selected to cover the **core DSA patterns** that frequently appear in technical interviews.
+This repository is my **structured path through the 49 essential LeetCode problems** from **The Pareto Problem Set** — the high-ROI DSA patterns that show up again and again in interviews.
 
-It serves as the **foundation milestone** in my journey to mastering **Data Structures and Algorithms** through **structured practice** and **deep understanding**.
+**Current state:** the **prep pack is complete**; solutions are added **one problem at a time** (I write the three C++ approaches; Cursor AI adds the three Mermaid flowcharts). Unsolved checklist items are normal — not missing work.
 
 ---
 
-## 🚀 My Problem-Solving Methodology
+## 🎒 Start here if you are new
 
-Each problem is solved through a **4-step process**, designed to mirror a **real technical interview**:
+Not everyone who opens this repo already knows Big O, edge cases, or the patterns behind these 49 problems.
 
-1. **🧩 Brute Force:**  
-   The most straightforward C++ solution — to prove understanding of the problem statement.
+**Before the checklist**, study the complete reference pack:
 
-2. **⚡ Optimized:**  
-   An improved version that addresses inefficiencies in time and/or space.
+### → [`00-Prep-Before-The-49/`](./00-Prep-Before-The-49/)
 
-3. **🏆 Optimal:**  
-   The most efficient C++ implementation — balancing clarity and performance.
+That folder is a **finished educational guide** for:
 
-4. **🌀 Flowchart:**  
-   A visual representation of the optimal solution’s logic, created using **draw.io**.
+1. **Absolute beginners** — problem solving + LeetCode culture  
+2. **The 49 specifically** — Big O, edges, pattern map, category sheets  
+3. **C++ in this repo** — one short C++/STL sheet to read and write solutions (other languages: same ideas, translate the snippets)
+
+It does **not** wait on you solving. You **read** it first; you **solve** later in `01`…`49`.  
+Sheets are numbered in **study order** (`00`→`16`).
+
+```text
+  00-Prep-Before-The-49/   (on-ramp + C++ enough + patterns — complete)
+           ↓
+  01…49 problem folders    (you solve in C++)
+```
+
+---
+
+## 🚀 Problem-Solving Methodology
+
+Each problem uses **three coded approaches** + **one Mermaid flowchart per approach** (three charts total).
+
+### Who does what
+
+| Work | Owner |
+|:---|:---|
+| `1-Brute-Force.c++` · `2-Optimized.c++` · `3-Optimal.c++` | **You** (write / revise the C++) |
+| `1-Brute-Force.flowchart.md` · `2-Optimized.flowchart.md` · `3-Optimal.flowchart.md` | **Cursor AI** (reads your C++ and draws the flow) |
+
+No draw.io. No `.png` exports. Charts live as **Mermaid inside Markdown** so GitHub renders them and git can diff them.
+
+### The three approaches (you code)
+
+1. **🧩 Brute Force** — straightforward correct C++; prove you understand the statement (may be slow).  
+2. **⚡ Optimized** — better time and/or space than brute.  
+3. **🏆 Optimal** — best practical interview solution here (clarity + efficiency).
+
+### The three flowcharts (Cursor AI)
+
+After (or when) the matching `.c++` file exists, Cursor creates / updates the sibling `.flowchart.md` so **each approach has its own chart** — not one chart for Optimal only.
+
+Ideal chart file:
+
+- Short title + which `.c++` it mirrors  
+- One ` ```mermaid ` flowchart (TD) of the **control flow** of that approach  
+- Optional one-line complexity reminder  
 
 ---
 
 ## 🗂️ Repository Structure
 
-Each problem has its **own folder**, named using the following convention:
-
+```text
+LeetCode-DSA-Pareto-Set/
+├── 00-Prep-Before-The-49/     ← complete study reference (read first)
+├── 01-…/                      ← one folder per *solved / in-progress* problem
+├── .cursor/rules/             ← you code C++ · AI owns Mermaid charts
+├── AGENTS.md                  ← how Cursor must behave in this repo
+└── README.md
 ```
+
+Create a problem folder **when you start that problem** — do not leave empty stub `.c++` files for unsolved items.
+
+### Prep folder
+
+See [`00-Prep-Before-The-49/README.md`](./00-Prep-Before-The-49/README.md).
+
+### Problem folders
+
+Naming:
+
+```text
 Problem-Number-Problem-Name-Category-difficulty
 ```
 
 Each folder includes:
 
-- `1-Brute-Force.c++`
-- `2-Optimized.c++`
-- `3-Optimal.c++`
-- `flowchart.png`
-- `flowchart.drawio`
-- Documentation and analysis inside code comments (pseudocode, logic, and complexity).
+| File | Role |
+|:---|:---|
+| `1-Brute-Force.c++` | Your brute solution (+ comments: steps, Big O, edges) |
+| `2-Optimized.c++` | Your mid improvement |
+| `3-Optimal.c++` | Your best practical solution |
+| `1-Brute-Force.flowchart.md` | AI Mermaid for brute |
+| `2-Optimized.flowchart.md` | AI Mermaid for optimized |
+| `3-Optimal.flowchart.md` | AI Mermaid for optimal |
 
-Example:
+**Gold-standard example** (copy this shape for every later folder):
 
-```
+```text
 01-Contains-Duplicate-Arrays-Hashing-Easy/
     ├── 1-Brute-Force.c++
     ├── 2-Optimized.c++
     ├── 3-Optimal.c++
-    └── flowchart.png
-    └── flowchart.drawio
+    ├── 1-Brute-Force.flowchart.md
+    ├── 2-Optimized.flowchart.md
+    └── 3-Optimal.flowchart.md
 ```
 
 ---
 
 ## 📋 Problem Checklist (49 Problems)
 
+> New here — even if you’ve never heard of LeetCode? Study [`00-Prep-Before-The-49`](./00-Prep-Before-The-49/) first (world + patterns), then solve and tick problems top → bottom.
+
 ### 🧮 Arrays & Hashing
 
-- [✅] 1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/)
+- [✅] 1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) · folder [`01-…`](./01-Contains-Duplicate-Arrays-Hashing-Easy/)
 - [ ] 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
 - [ ] 3. [Two Sum](https://leetcode.com/problems/two-sum/)
 - [ ] 4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
