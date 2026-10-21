@@ -9,6 +9,10 @@
 
 ## 💡 Core idea
 
+**What it is:** A hierarchy of nodes. **Binary tree** = at most `left` and `right`. **BST** = ordered: left subtree &lt; node &lt; right subtree.
+
+**Remember:** Almost every tree solution is **recursion** (DFS) or a **queue** (BFS). Null child = base case. Finish sheet [12](./12-Traversal-Recursion-Queue.md) first.
+
 ```text
         4
        / \
@@ -23,8 +27,8 @@ Each node: `val`, `left`, `right` (nullable).
 |:---|:---|
 | **Root** | Top node |
 | **Leaf** | No children |
-| **Height / depth** | Levels from root or longest path (definitions vary — be consistent in code) |
-| **BST** | For every node: left subtree values **<** node **<** right subtree values |
+| **Height / depth** | Levels from root or longest path (pick one definition and stick to it) |
+| **BST** | For every node: left values **<** node **<** right values |
 
 ---
 

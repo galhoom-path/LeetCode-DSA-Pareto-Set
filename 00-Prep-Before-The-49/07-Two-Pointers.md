@@ -8,7 +8,9 @@
 
 ## 💡 Core idea
 
-Use **two indices** that move through a structure so you avoid many nested loops.
+**What it is:** Two indices (`L`, `R`) that move by a **rule** so you don’t check every pair with nested loops.
+
+**Remember:** After a sort (if needed), many pair/triple problems drop from O(n²) toward **O(n)**. Always ask: “what does the condition tell me to move?”
 
 ```text
   L -------------------- R

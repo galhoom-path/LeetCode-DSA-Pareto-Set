@@ -8,7 +8,9 @@
 
 ## 💡 Core idea
 
-A **binary heap** keeps the **min** or **max** at the root.
+**What it is:** A structure that always exposes the current **min** or **max** at the root (binary heap / priority queue).
+
+**Remember:** Peek O(1), push/pop O(log n). C++ `priority_queue` is a **max-heap** by default — use `greater<int>` for min-heap. Top-K → often “min-heap of size **k**.”
 
 ```text
   Min-heap:

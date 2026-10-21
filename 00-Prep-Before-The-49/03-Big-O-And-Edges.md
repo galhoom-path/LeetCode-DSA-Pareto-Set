@@ -8,13 +8,25 @@
 
 ## 📗 Part A — Big O · Time · Space
 
-### Definitions
+### Definitions (Pareto)
 
-| Term | Meaning |
-|:---|:---|
-| **Time complexity** | How the **number of steps** grows as input size grows |
-| **Space complexity** | How much **extra memory** you allocate (beyond the given input) |
-| **Big O** | Upper bound on **worst-case** growth — ignore constants and lower-order terms |
+#### Time complexity
+
+**What it is:** How the **number of steps** grows as the input gets larger (usually vs `n`).
+
+**Remember:** Interviews care about the **growth class**, not exact milliseconds on your laptop.
+
+#### Space complexity
+
+**What it is:** How much **extra** memory you allocate beyond the given input (sets, maps, recursion stack, queues…).
+
+**Remember:** The input array itself usually doesn’t count; say so if you exclude the required output array.
+
+#### Big O
+
+**What it is:** A label for **worst-case growth** — drop constants and lower-order terms (`3n + 10` → O(n)).
+
+**Remember:** It’s an upper-bound style of talk: “this won’t grow worse than …”.
 
 ```text
   steps
@@ -32,17 +44,48 @@
 
 ### Classes you will actually see in this repo
 
-| Big O | Intuition | Where in the 49 |
-|:---|:---|:---|
-| **O(1)** | Constant work | Hash get/put (average), stack push/pop, heap peek |
-| **O(log n)** | Halve the space each step | Binary search (#19–21) |
-| **O(n)** | One (or few) linear passes | Hash scans, two pointers, windows, many DFS/BFS |
-| **O(n log n)** | Sort or heap across n items | Some top-K / heap approaches (#40–42) |
-| **O(n²)** | Nested loops over n | Typical **brute force** before optimizing |
-| **O(n³)** | Triple nested | Naive 3Sum brute (#11) before two pointers |
+Quick map (details below):
 
-For grids (#43–47): often **O(m·n)** cells.  
-For graphs (#45, #48–49): often **O(V + E)**.
+| Big O | Gut feel | Typical in the 49 |
+|:---|:---|:---|
+| **O(1)** | Constant | Hash get (avg), stack push, heap peek |
+| **O(log n)** | Halve each step | Binary search (#19–21) |
+| **O(n)** | One pass | Hash scan, two pointers, window, many DFS/BFS |
+| **O(n log n)** | Sort / heap over n | Top-K / heap (#40–42) |
+| **O(n²)** | Nested loops | Typical **brute** before optimizing |
+| **O(n³)** | Triple loops | Naive 3Sum brute (#11) |
+
+Grids (#43–47): often **O(m·n)** cells. Graphs (#45, #48–49): often **O(V + E)**.
+
+#### O(1)
+
+**What it is:** Work that does **not** grow with `n` (one hash lookup, one push).
+
+**Remember:** Hash is **average** O(1) — say “average” out loud.
+
+#### O(log n)
+
+**What it is:** Each step throws away a constant fraction of the space (usually half).
+
+**Remember:** Needs sorted / monotonic search space — binary search.
+
+#### O(n)
+
+**What it is:** Roughly proportional to input size — one or a few full passes.
+
+**Remember:** The “good” target for many Easy/Medium array-string problems after brute.
+
+#### O(n log n)
+
+**What it is:** Usually **sort**, or n heap operations of O(log n) each.
+
+**Remember:** Faster than O(n²), slower than a pure O(n) scan — fine when sort is required.
+
+#### O(n²) / O(n³)
+
+**What it is:** Nested loops over the input (pairs / triples).
+
+**Remember:** Often the honest **brute**. At `n ≈ 10⁵`, O(n²) → TLE — upgrade the pattern.
 
 ---
 
@@ -138,7 +181,9 @@ C++ track: [04-Cpp-For-The-49.md](./04-Cpp-For-The-49.md).
 
 ### What is an edge case?
 
-An input at the **boundary** of the problem rules — empty, tiny, extreme, weird — that still must produce a correct answer (or a defined empty result) without crashing.
+**What it is:** A legal input at the **boundary** of the rules — empty, size 1, all equal, max `n`, null head/root, … — that still needs a correct answer (or a defined empty result) without crashing.
+
+**Remember:** Happy-path-only code fails Submit and interviews. Name **2–3 edges before** you type.
 
 ```mermaid
 flowchart TB

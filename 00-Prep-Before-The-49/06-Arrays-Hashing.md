@@ -8,11 +8,15 @@
 
 ## 💡 Core ideas
 
+**What this block is:** Problems where you scan arrays/strings and need **fast “seen before?” / counts / indices** — usually with a hash set or map.
+
+**Remember:** Searching a value in a plain array is O(n). Hashing makes that **average O(1)** — you trade memory for speed.
+
 | Structure | What it gives you |
 |:---|:---|
-| **Array / `vector`** | Index access O(1); scan O(n) |
-| **Hash set** | “Have I seen this?” average O(1) |
-| **Hash map** | key → value / count / index, average O(1) |
+| **Array / `vector`** | Index O(1); full scan O(n) |
+| **Hash set** | “Have I seen this key?” |
+| **Hash map** | key → value (count, index, list, …) |
 
 ```text
  values:  [1, 2, 1]

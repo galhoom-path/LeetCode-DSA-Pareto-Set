@@ -25,3 +25,12 @@
 
 - Root README checklist tracks progress (`[✅]` / `[ ]`).  
 - A folder exists only for problems being worked or done — never empty 0-byte stubs for future numbers.
+
+## 🔄 Git / GitHub (automatic)
+
+After any substantive change in this repo, Cursor should:
+
+1. Create a **Conventional Commit** (no need for the human to ask).  
+2. **Push** to `origin` so [GitHub](https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set) stays current.
+
+Details: `.cursor/rules/auto-conventional-commit.mdc`.

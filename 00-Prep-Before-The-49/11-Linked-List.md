@@ -8,7 +8,9 @@
 
 ## 💡 Core idea
 
-Each **node** stores a value and a pointer to the next node (`next`). Optional `prev` for doubly linked lists (LRU).
+**What it is:** Nodes chained by pointers (`next`; optional `prev` for doubly linked / LRU). No O(1) index access like an array.
+
+**Remember:** Everything is a **walk + rewire**. Draw 3 nodes on paper before coding reverse/merge. Fast/slow = mid or cycle.
 
 ```text
   head → [1|*] → [2|*] → [3|/]

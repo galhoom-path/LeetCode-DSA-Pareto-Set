@@ -8,6 +8,10 @@
 
 ## 💡 Core idea · LIFO
 
+**What it is:** Last-In, First-Out — you only push/pop at the **top** (like a stack of plates).
+
+**Remember:** Use it when the answer depends on the **most recent unmatched** item (brackets, nesting). **Monotonic** stack = keep order so “next greater” is O(n).
+
 ```text
   push → top
            ┌───┐

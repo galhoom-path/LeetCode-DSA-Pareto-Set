@@ -1,0 +1,45 @@
+---
+description: Auto conventional commit + push after substantive repo changes
+alwaysApply: true
+---
+
+# Auto Git / GitHub sync
+
+Remote: `https://github.com/galhoom-path/LeetCode-DSA-Pareto-Set`
+
+## After you finish a substantive change
+
+Do **not** wait for the user to say “commit” or “push”. When the edit/fix/docs work for the turn is done and the working tree has real changes:
+
+1. `git status` / `git diff` / recent `git log` (follow normal commit safety).
+2. Stage relevant files (never secrets).
+3. **Conventional Commit** (English), one short subject (± body if needed):
+
+   ```text
+   type(scope): imperative summary
+   ```
+
+   Common types: `docs`, `feat`, `fix`, `refactor`, `chore`, `style`, `perf`.  
+   Scopes here: `prep`, `problem`, `readme`, `agents`, `rules`, …
+
+   Examples:
+   - `docs(prep): enrich Big O definitions with What/Remember`
+   - `feat(problem): add Mermaid flowcharts for contains-duplicate`
+   - `chore(rules): require auto conventional commits`
+
+4. `git push -u origin HEAD` (or `git push`) so **GitHub stays up to date**.
+5. If push fails (auth/network), report the error; leave the local commit intact.
+
+## Do not auto-commit when
+
+- Only exploratory reads / no file changes
+- User explicitly says **not** to commit or push
+- Commit would include secrets (`.env`, credentials, …)
+- Empty commit (no changes)
+
+## Still apply
+
+- Never `push --force` to `main` unless the user explicitly demands it
+- Never rewrite git config
+- Never amend unless the usual amend safety rules all hold
+- Problem C++ solutions: human owns code; don’t bulk-solve (see `AGENTS.md`)

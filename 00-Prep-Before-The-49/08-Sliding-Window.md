@@ -8,8 +8,9 @@
 
 ## 💡 Core idea
 
-Maintain a **contiguous** segment `[L, R]`.  
-Expand `R` to include more; shrink `L` when the window breaks the rule; track the best answer.
+**What it is:** A **contiguous** segment `[L, R]` you grow/shrink while keeping a rule true (unique chars, at most `k` changes, …).
+
+**Remember:** Both pointers only move forward → usually **O(n)**. Think “best / longest / shortest **contiguous** piece,” not arbitrary subsequences.
 
 ```text
   [ a b c a b c b b ]

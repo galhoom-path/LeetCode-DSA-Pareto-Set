@@ -8,7 +8,9 @@
 
 ## 💡 Core idea
 
-On a **sorted** range, compare the middle and discard half.
+**What it is:** On a **sorted** (or monotonic) range, compare the middle and **throw away half** each step.
+
+**Remember:** O(log n). Needs order. Use `mid = L + (R - L) / 2`. Rotated arrays still work if you identify which half is sorted.
 
 ```text
   L           mid           R

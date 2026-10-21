@@ -9,7 +9,9 @@
 
 ## 💡 Core idea
 
-**Vertices (nodes)** connected by **edges**.
+**What it is:** **Vertices (nodes)** connected by **edges**. In the 49: either a **grid** of cells or an **adjacency list**.
+
+**Remember:** Always mark **visited** (or flip the cell) or you loop forever. Traversal engine = sheet [12](./12-Traversal-Recursion-Queue.md) (DFS/BFS). Cycle in courses ⇒ cannot finish.
 
 | Representation | Use in the 49 |
 |:---|:---|

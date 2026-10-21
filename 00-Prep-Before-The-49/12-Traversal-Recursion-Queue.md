@@ -10,7 +10,9 @@
 
 ## Recursion
 
-A function solves a big problem by calling itself on a **smaller** piece, plus a **base case** that stops.
+**What it is:** A function solves a problem by calling itself on a **smaller** piece, plus a **base case** that stops.
+
+**Remember:** Write the base case first (`nullptr` → 0). Call stack counts as **space** (often O(height)).
 
 ```text
   depth(null)  = 0                 ← base
@@ -38,8 +40,9 @@ flowchart TD
 
 ## DFS (Depth-First Search)
 
-Go as deep as possible, then backtrack.  
-Implemented with **recursion** or an explicit **stack**.
+**What it is:** Go as deep as possible along one path, then backtrack. Code: **recursion** or an explicit **stack**.
+
+**Remember:** Natural for trees and “flood fill.” On graphs/grids, **mark visited** or you never stop.
 
 Used for: invert tree, diameters, island flood, clone graph, course cycle DFS, good nodes, …
 
@@ -54,7 +57,9 @@ Used for: invert tree, diameters, island flood, clone graph, course cycle DFS, g
 
 ## BFS (Breadth-First Search)
 
-Visit level by level using a **queue** (FIFO).
+**What it is:** Visit **level by level** using a **queue** (FIFO).
+
+**Remember:** Capture `queue.size()` at the start of a level for level-order / right-side view. Kahn topo = BFS on in-degree 0.
 
 ```text
   queue ← start
