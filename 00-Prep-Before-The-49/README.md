@@ -89,40 +89,40 @@ File number = learn order.
 
 ### Phase A — Enter the world
 
-| # | File | What | Done? |
-|:---:|:---|:---|:---:|
-| 0 | [00-Glossary](./00-Glossary.md) | 📖 Vocabulary | → [PROGRESS](../PROGRESS.md) |
-| 1 | [01-Welcome-To-The-World](./01-Welcome-To-The-World.md) | 🌍 PS + LeetCode | → [PROGRESS](../PROGRESS.md) |
-| 2 | [02-How-To-Practice](./02-How-To-Practice.md) | 🧭 Read + playbook + live 6 steps | → [PROGRESS](../PROGRESS.md) |
+| # | File | What |
+|:---:|:---|:---|
+| 0 | [00-Glossary](./00-Glossary.md) | 📖 Vocabulary |
+| 1 | [01-Welcome-To-The-World](./01-Welcome-To-The-World.md) | 🌍 PS + LeetCode |
+| 2 | [02-How-To-Practice](./02-How-To-Practice.md) | 🧭 Read + playbook + live 6 steps |
 
 ### Phase B — Speak efficiency + C++
 
-| # | File | What | Done? |
-|:---:|:---|:---|:---:|
-| 3 | [03-Big-O-And-Edges](./03-Big-O-And-Edges.md) | ⏱️ Complexity + edges | → [PROGRESS](../PROGRESS.md) |
-| 4 | [04-Cpp-For-The-49](./04-Cpp-For-The-49.md) | 💻 Basics + STL | → [PROGRESS](../PROGRESS.md) |
+| # | File | What |
+|:---:|:---|:---|
+| 3 | [03-Big-O-And-Edges](./03-Big-O-And-Edges.md) | ⏱️ Complexity + edges |
+| 4 | [04-Cpp-For-The-49](./04-Cpp-For-The-49.md) | 💻 Basics + STL |
 
 ### Phase C — Patterns for the 49
 
-| # | File | What | Done? |
-|:---:|:---|:---|:---:|
-| 5 | [05-Pattern-Map-For-The-49](./05-Pattern-Map-For-The-49.md) | 🗺️ All 49 → sheet | → [PROGRESS](../PROGRESS.md) |
-| 6 | [06-Arrays-Hashing](./06-Arrays-Hashing.md) | 📦 #1–8 | → [PROGRESS](../PROGRESS.md) |
-| 7 | [07-Two-Pointers](./07-Two-Pointers.md) | 👆 #9–12 | → [PROGRESS](../PROGRESS.md) |
-| 8 | [08-Sliding-Window](./08-Sliding-Window.md) | 🪟 #13–15 | → [PROGRESS](../PROGRESS.md) |
-| 9 | [09-Stack](./09-Stack.md) | 📚 #16–18 | → [PROGRESS](../PROGRESS.md) |
-| 10 | [10-Binary-Search](./10-Binary-Search.md) | 🎯 #19–21 | → [PROGRESS](../PROGRESS.md) |
-| 11 | [11-Linked-List](./11-Linked-List.md) | 🔗 #22–27 | → [PROGRESS](../PROGRESS.md) |
-| 12 | [12-Traversal-Recursion-Queue](./12-Traversal-Recursion-Queue.md) | 🔁 DFS / BFS | → [PROGRESS](../PROGRESS.md) |
-| 13 | [13-Trees-BST](./13-Trees-BST.md) | 🌳 #28–39 | → [PROGRESS](../PROGRESS.md) |
-| 14 | [14-Heap-Priority-Queue](./14-Heap-Priority-Queue.md) | ⛰️ #40–42 | → [PROGRESS](../PROGRESS.md) |
-| 15 | [15-Graphs](./15-Graphs.md) | 🌐 #43–49 | → [PROGRESS](../PROGRESS.md) |
+| # | File | What |
+|:---:|:---|:---|
+| 5 | [05-Pattern-Map-For-The-49](./05-Pattern-Map-For-The-49.md) | 🗺️ All 49 → sheet |
+| 6 | [06-Arrays-Hashing](./06-Arrays-Hashing.md) | 📦 #1–8 |
+| 7 | [07-Two-Pointers](./07-Two-Pointers.md) | 👆 #9–12 |
+| 8 | [08-Sliding-Window](./08-Sliding-Window.md) | 🪟 #13–15 |
+| 9 | [09-Stack](./09-Stack.md) | 📚 #16–18 |
+| 10 | [10-Binary-Search](./10-Binary-Search.md) | 🎯 #19–21 |
+| 11 | [11-Linked-List](./11-Linked-List.md) | 🔗 #22–27 |
+| 12 | [12-Traversal-Recursion-Queue](./12-Traversal-Recursion-Queue.md) | 🔁 DFS / BFS |
+| 13 | [13-Trees-BST](./13-Trees-BST.md) | 🌳 #28–39 |
+| 14 | [14-Heap-Priority-Queue](./14-Heap-Priority-Queue.md) | ⛰️ #40–42 |
+| 15 | [15-Graphs](./15-Graphs.md) | 🌐 #43–49 |
 
 ### Phase D — Go signal
 
-| # | File | What | Done? |
-|:---:|:---|:---|:---:|
-| 16 | [16-Ready-For-The-49-Checklist](./16-Ready-For-The-49-Checklist.md) | ✅ Mastery + sources | → [PROGRESS](../PROGRESS.md) |
+| # | File | What |
+|:---:|:---|:---|
+| 16 | [16-Ready-For-The-49-Checklist](./16-Ready-For-The-49-Checklist.md) | ✅ Mastery + sources |
 
 > ℹ️ Still **not** a full DSA book or a full C++ degree — only what you need for these 49.
 

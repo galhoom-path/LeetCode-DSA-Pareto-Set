@@ -70,14 +70,8 @@ Each sheet also has the same two boxes at the top — keep **this list** as the 
 
 ## 🧩 Pareto 49 · solve progress
 
-Official checklist (tick `[✅]` when the folder is done): root [`README.md`](./README.md#problem-checklist-49-problems).
-
-| # | Problem | Done? |
-|:---:|:---|:---:|
-| 1 | [Contains Duplicate](./01-Contains-Duplicate-Arrays-Hashing-Easy/) | ✅ |
-| 2–49 | See root README checklist | [ ] |
-
-Update the **Problems** bar above whenever you finish a folder (three `.c++` + three Mermaid charts).
+Tick `[✅]` on the checklist in root [`README.md`](./README.md#problem-checklist-49-problems) (source of truth).  
+Then update the **Problems** bar above to match (`1/49` today · `#1` done).
 
 ---
 

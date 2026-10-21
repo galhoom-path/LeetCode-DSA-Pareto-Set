@@ -23,7 +23,6 @@ compile_commands.json
 .idea/
 .vscode/*
 !.vscode/tasks.json
-!.vscode/extensions.json
 .vs/
 *.swp
 .DS_Store

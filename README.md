@@ -96,9 +96,9 @@ Agent rules: [`AGENTS.md`](./AGENTS.md).
 
 ## ▶️ Run a solution (C++)
 
-Requires **g++** (MinGW). On this machine it is installed globally via WinLibs:
+Requires **g++** (MinGW / WinLibs) on your PATH:
 
-```text
+```powershell
 winget install -e --id BrechtSanders.WinLibs.POSIX.UCRT
 ```
 
@@ -137,8 +137,8 @@ LeetCode-DSA-Pareto-Set/
 ├── 00-Prep-Before-The-49/     ← study reference (tick progress as you read)
 ├── 01-…/                      ← one folder per solved / in-progress problem
 ├── .vscode/tasks.json         ← Run Build Task on current .c++ file
-├── .cursor/rules/             ← you code C++ · AI owns Mermaid charts
-├── AGENTS.md                  ← how Cursor must behave here
+├── .cursor/rules/             ← C++ yours · Mermaid charts AI
+├── AGENTS.md
 └── README.md
 ```
 
