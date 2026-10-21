@@ -1,10 +1,12 @@
-# 14 · Heap · Priority Queue
+# ⛰️ 14 · Heap · Priority Queue
 
-**Problems:** **#40–42** (also helps **#5** Top K) · **Status:** complete reference for this block
+> 📌 **At a glance**
+>
+> **Problems:** **#40–42** (also helps **#5** Top K) · **Status:** complete reference for this block
 
 ---
 
-## Core idea
+## 💡 Core idea
 
 A **binary heap** keeps the **min** or **max** at the root.
 
@@ -40,7 +42,7 @@ Min-heap: `priority_queue<int, vector<int>, greater<int>>`.
 
 ---
 
-## Problem-by-problem
+## 📋 Problem-by-problem
 
 | # | Problem | Heap plan |
 |:---:|:---|:---|
@@ -50,7 +52,7 @@ Min-heap: `priority_queue<int, vector<int>, greater<int>>`.
 
 ---
 
-## Complexity
+## ⏱️ Complexity
 
 | Op | Time |
 |:---|:---|
@@ -60,7 +62,7 @@ Min-heap: `priority_queue<int, vector<int>, greater<int>>`.
 
 ---
 
-## Edge cases
+## 🧪 Edge cases
 
 - `k == 1` / `k == n`  
 - All equal  
@@ -69,7 +71,7 @@ Min-heap: `priority_queue<int, vector<int>, greater<int>>`.
 
 ---
 
-## C++ mini-example (kth largest · min-heap size k)
+## 💻 C++ mini-example (kth largest · min-heap size k)
 
 ```cpp
 #include <queue>
@@ -92,10 +94,10 @@ Default `priority_queue<int>` is a **max-heap**. See [04](./04-Cpp-For-The-49.md
 
 ---
 
-## Self-check
+## ✅ Self-check
 
 - [ ] I can explain min-heap of size k for kth largest  
 - [ ] I know C++ `priority_queue` is max-heap by default  
 - [ ] I can simulate #41 for `[2,7,4,1,8,1]` mentally
 
-Next → [15-Graphs.md](./15-Graphs.md)
+➡️ **Next →** [15-Graphs.md](./15-Graphs.md)

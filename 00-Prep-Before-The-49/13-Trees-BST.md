@@ -1,11 +1,13 @@
-# 13 · Trees · BST
+# 🌳 13 · Trees · BST
 
-**Problems:** **#28–39** · **Status:** complete reference for this block  
-**Requires:** [12 · Traversal](./12-Traversal-Recursion-Queue.md) (DFS / BFS) — finish it first.
+> 📌 **At a glance**
+>
+> **Problems:** **#28–39** · **Status:** complete reference for this block  
+> **Requires:** [12 · Traversal](./12-Traversal-Recursion-Queue.md) (DFS / BFS) — finish it first.
 
 ---
 
-## Core idea
+## 💡 Core idea
 
 ```text
         4
@@ -45,7 +47,7 @@ flowchart TB
 
 ---
 
-## Problem-by-problem
+## 📋 Problem-by-problem
 
 | # | Problem | Must know |
 |:---:|:---|:---|
@@ -76,14 +78,14 @@ Inorder of a BST = sorted values → kth smallest is the k-th visit.
 
 ---
 
-## Complexity
+## ⏱️ Complexity
 
 Visit each node once ⇒ **O(n)** time.  
 Recursion / queue ⇒ **O(h)** or **O(n)** space (`h` = height; skewed ⇒ n).
 
 ---
 
-## Edge cases
+## 🧪 Edge cases
 
 - Empty tree  
 - Single node  
@@ -92,7 +94,7 @@ Recursion / queue ⇒ **O(h)** or **O(n)** space (`h` = height; skewed ⇒ n).
 
 ---
 
-## C++ mini-example (idea of #29)
+## 💻 C++ mini-example (idea of #29)
 
 ```cpp
 struct TreeNode {
@@ -112,10 +114,10 @@ Level-order / BFS: see [12](./12-Traversal-Recursion-Queue.md).
 
 ---
 
-## Self-check
+## ✅ Self-check
 
 - [ ] I can write depth recursion in one line of English  
 - [ ] I know inorder = sorted for BST  
 - [ ] I know when to pick BFS vs DFS in this list
 
-Next → [14-Heap-Priority-Queue.md](./14-Heap-Priority-Queue.md)
+➡️ **Next →** [14-Heap-Priority-Queue.md](./14-Heap-Priority-Queue.md)

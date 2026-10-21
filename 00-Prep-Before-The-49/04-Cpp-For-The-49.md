@@ -1,11 +1,9 @@
-# 04 · C++ For The 49
+# 💻 04 · C++ For The 49
 
-**Audience:**  
-- You will **solve in C++** → read carefully before coding.  
-- You will solve in **another language** → still skim: same *ideas*; translate snippets later.
-
-**Rule:** short examples only — just enough to open Brute/Optimal files without panic.  
-**Not:** a full C++ course.
+> 📌 **At a glance**  
+> - **C++ solvers:** read carefully before coding.  
+> - **Other languages:** skim ideas, then translate snippets.  
+> - **Rule:** short examples only — not a full C++ course.
 
 ```text
   Concepts (any language)     Examples in this pack
@@ -16,9 +14,9 @@
 
 ---
 
-# Part A — Basics
+## 📗 Part A — Basics
 
-## 0 · How a LeetCode C++ solution looks
+### 0 · How a LeetCode C++ solution looks
 
 Almost every problem uses a `Solution` class with one method:
 
@@ -42,7 +40,7 @@ You rarely write `main` on LeetCode. In **this repo**, files often add a small `
 
 ---
 
-## 1 · Types you will see constantly
+### 1 · Types you will see constantly
 
 ```cpp
 int x = 3;
@@ -61,7 +59,7 @@ string s = "hello";   // #include <string>
 
 ---
 
-## 2 · Variables, `const`, references
+### 2 · Variables, `const`, references
 
 ```cpp
 int a = 1;
@@ -76,7 +74,7 @@ void g(const vector<int>& nums) { /* read-only, no copy */ }
 
 ---
 
-## 3 · Conditionals & loops
+### 3 · Conditionals & loops
 
 ```cpp
 if (x == 0) { /* … */ }
@@ -102,7 +100,7 @@ while (!st.empty()) {
 
 ---
 
-## 4 · Functions & recursion (trees / DFS)
+### 4 · Functions & recursion (trees / DFS)
 
 ```cpp
 int add(int a, int b) {
@@ -120,7 +118,7 @@ See also [12-Traversal-Recursion-Queue.md](./12-Traversal-Recursion-Queue.md).
 
 ---
 
-## 5 · `vector` — your default array
+### 5 · `vector` — your default array
 
 ```cpp
 #include <vector>
@@ -141,7 +139,7 @@ a[1] = 99;
 
 ---
 
-## 6 · `string` & characters
+### 6 · `string` & characters
 
 ```cpp
 #include <string>
@@ -157,7 +155,7 @@ Used heavily in palindrome / substring problems (#9, #14, #15).
 
 ---
 
-## 7 · Null pointers (lists & trees)
+### 7 · Null pointers (lists & trees)
 
 ```cpp
 ListNode* p = nullptr;   // empty
@@ -170,7 +168,7 @@ ListNode* nxt = p->next;
 
 ---
 
-## 8 · `#include` & `using`
+### 8 · `#include` & `using`
 
 ```cpp
 #include <vector>
@@ -188,7 +186,7 @@ STL containers continue in **Part B** below.
 
 ---
 
-## 9 · Complexity in C++ shape (same ideas, any language)
+### 9 · Complexity in C++ shape (same ideas, any language)
 
 ```cpp
 // O(n) — one pass
@@ -202,7 +200,7 @@ for (int i = 0; i < n; i++)
 
 ---
 
-## Self-check (basics)
+### ✅ Self-check (basics)
 
 - [ ] I recognize a `Solution` method signature  
 - [ ] I can write a `for` over a `vector`  
@@ -213,11 +211,11 @@ for (int i = 0; i < n; i++)
 
 ---
 
-# Part B — STL containers for the 49
+## 📘 Part B — STL containers for the 49
 
 **Ideas** (hash set, stack, heap…) are universal; **syntax** here is C++. Translate freely.
 
-## Map: container → pattern
+### Map: container → pattern
 
 | Container | Pattern in the 49 |
 |:---|:---|
@@ -231,7 +229,7 @@ for (int i = 0; i < n; i++)
 
 ---
 
-## `unordered_set` — “have I seen this?”
+### `unordered_set` — “have I seen this?”
 
 ```cpp
 #include <unordered_set>
@@ -245,7 +243,7 @@ Average **O(1)** lookup — core of Arrays & Hashing.
 
 ---
 
-## `unordered_map` — key → value
+### `unordered_map` — key → value
 
 ```cpp
 #include <unordered_map>
@@ -261,7 +259,7 @@ freq['a']++;                   // count letters
 
 ---
 
-## `stack` — LIFO
+### `stack` — LIFO
 
 ```cpp
 #include <stack>
@@ -274,7 +272,7 @@ bool empty = st.empty();
 
 ---
 
-## `queue` — FIFO (BFS)
+### `queue` — FIFO (BFS)
 
 ```cpp
 #include <queue>
@@ -286,7 +284,7 @@ q.pop();
 
 ---
 
-## `priority_queue` — heap
+### `priority_queue` — heap
 
 ```cpp
 #include <queue>
@@ -303,7 +301,7 @@ int smallest = minh.top();
 
 ---
 
-## `sort`
+### `sort`
 
 ```cpp
 #include <algorithm>
@@ -315,7 +313,7 @@ Used before two-pointer scans (e.g. 3Sum).
 
 ---
 
-## Node shapes (copy these mentally)
+### Node shapes (copy these mentally)
 
 ```cpp
 struct ListNode {
@@ -339,7 +337,7 @@ public:
 
 ---
 
-## Mini pattern gallery (C++ · same idea elsewhere)
+### Mini pattern gallery (C++ · same idea elsewhere)
 
 ### Hash set scan (idea behind #1)
 
@@ -390,7 +388,7 @@ int lengthOfLongestSubstring(string s) {
 
 ---
 
-## Self-check (STL)
+### Self-check (STL)
 
 - [ ] I can pick set vs map vs stack vs queue vs heap for a pattern  
 - [ ] I can read `ListNode*` / `TreeNode*` signatures  
@@ -398,4 +396,4 @@ int lengthOfLongestSubstring(string s) {
 
 **Need exact STL docs?** Start at [cppreference](https://en.cppreference.com/w/cpp). Curated links for *this* repo (only what the 49 use): [16 · C++ reference](./16-Ready-For-The-49-Checklist.md#c-reference-cppreference).
 
-Next → [05-Pattern-Map-For-The-49.md](./05-Pattern-Map-For-The-49.md) (then follow `Next →` through **06–16**).
+➡️ **Next →** [05-Pattern-Map-For-The-49.md](./05-Pattern-Map-For-The-49.md) (then follow `Next →` through **06–16**).

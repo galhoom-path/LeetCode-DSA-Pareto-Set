@@ -1,12 +1,14 @@
-# 03 · Big O And Edges
+# ⏱️ 03 · Big O And Edges
 
-**Goal:** read every Time/Space line in the 49, and never ship a “happy-path only” solution.
+> 📌 **At a glance**
+>
+> **Goal:** read every Time/Space line in the 49, and never ship a “happy-path only” solution.
 
 ---
 
-# Part A — Big O · Time · Space
+## 📗 Part A — Big O · Time · Space
 
-## Definitions
+### Definitions
 
 | Term | Meaning |
 |:---|:---|
@@ -28,7 +30,7 @@
 
 ---
 
-## Classes you will actually see in this repo
+### Classes you will actually see in this repo
 
 | Big O | Intuition | Where in the 49 |
 |:---|:---|:---|
@@ -44,7 +46,7 @@ For graphs (#45, #48–49): often **O(V + E)**.
 
 ---
 
-## Best / average / worst (hashing)
+### Best / average / worst (hashing)
 
 | | Meaning in this repo |
 |:---|:---|
@@ -55,7 +57,7 @@ When a solution says “hash map O(1)”, it means **average**.
 
 ---
 
-## What counts as “extra space”?
+### What counts as “extra space”?
 
 | Counts as extra space | Usually ignored |
 |:---|:---|
@@ -65,7 +67,7 @@ When a solution says “hash map O(1)”, it means **average**.
 
 ---
 
-## Time ↔ space trade-off
+### Time ↔ space trade-off
 
 ```mermaid
 flowchart LR
@@ -76,7 +78,7 @@ Classic in **#1 Contains Duplicate**.
 
 ---
 
-## How to measure an idea (interview script)
+### How to measure an idea (interview script)
 
 1. What is `n`? (length, nodes, `V`/`E`, rows×cols)  
 2. How many times do I touch each element?  
@@ -85,7 +87,7 @@ Classic in **#1 Contains Duplicate**.
 
 ---
 
-## Reading comments in this repo
+### Reading comments in this repo
 
 ```text
 Time Complexity:  O(N)   ← linear in input size
@@ -96,7 +98,7 @@ Same letter `N` / `n` — convention only.
 
 ---
 
-## Same ideas in C++ (short)
+### Same ideas in C++ (short)
 
 ```cpp
 // O(n) — one pass
@@ -114,7 +116,7 @@ C++ track: [04-Cpp-For-The-49.md](./04-Cpp-For-The-49.md).
 
 ---
 
-## Common mistakes
+### Common mistakes
 
 | Mistake | Fix |
 |:---|:---|
@@ -124,7 +126,7 @@ C++ track: [04-Cpp-For-The-49.md](./04-Cpp-For-The-49.md).
 
 ---
 
-## Self-check (Big O)
+### ✅ Self-check (Big O)
 
 - [ ] I can explain O(1), O(log n), O(n), O(n log n), O(n²) with an example from the 49  
 - [ ] I can separate **time** from **space**  
@@ -132,9 +134,9 @@ C++ track: [04-Cpp-For-The-49.md](./04-Cpp-For-The-49.md).
 
 ---
 
-# Part B — Edge cases · interview mindset
+## 📘 Part B — Edge cases · interview mindset
 
-## What is an edge case?
+### What is an edge case?
 
 An input at the **boundary** of the problem rules — empty, tiny, extreme, weird — that still must produce a correct answer (or a defined empty result) without crashing.
 
@@ -148,7 +150,7 @@ flowchart TB
 
 ---
 
-## Universal checklist (run on every problem)
+### Universal checklist (run on every problem)
 
 | # | Edge | Question |
 |:---:|:---|:---|
@@ -167,7 +169,7 @@ flowchart TB
 
 ---
 
-## Per-category edges (for the 49)
+### Per-category edges (for the 49)
 
 | Category | Extra edges to name |
 |:---|:---|
@@ -183,7 +185,7 @@ flowchart TB
 
 ---
 
-## Interview talking script (30–60s before code)
+### Interview talking script (30–60s before code)
 
 1. **Restate** input / output in one sentence  
 2. **Constraints** that change the approach (sorted? unique? size?)  
@@ -196,7 +198,7 @@ This matches the repo: Brute → Optimized → Optimal.
 
 ---
 
-## How solutions in this repo document edges
+### How solutions in this repo document edges
 
 Look for comments like:
 
@@ -210,7 +212,7 @@ You should be able to invent that list **before** reading the Optimal file.
 
 ---
 
-## Self-check (edges)
+### Self-check (edges)
 
 - [ ] I can list ≥5 universal edges without looking  
 - [ ] For a random category above, I can name 2 specific edges  
@@ -219,4 +221,4 @@ You should be able to invent that list **before** reading the Optimal file.
 **C++ solvers:** study [04](./04-Cpp-For-The-49.md) carefully before pattern coding.  
 **Other languages:** skim 04 once so C++ sketches in 06–15 are readable — then translate freely.
 
-Next → [04-Cpp-For-The-49.md](./04-Cpp-For-The-49.md)
+➡️ **Next →** [04-Cpp-For-The-49.md](./04-Cpp-For-The-49.md)

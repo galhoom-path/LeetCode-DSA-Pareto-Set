@@ -1,6 +1,8 @@
-# 05 · Pattern Map For The 49
+# 🗺️ 05 · Pattern Map For The 49
 
-**Goal:** see every problem’s **home pattern** before you open its folder.
+> 📌 **At a glance**
+>
+> **Goal:** see every problem’s **home pattern** before you open its folder.
 
 ---
 
@@ -107,4 +109,4 @@ flowchart TB
 
 If you are brand new to LeetCode, finish **[01–02](./01-Welcome-To-The-World.md)** first.
 
-Next → [06-Arrays-Hashing.md](./06-Arrays-Hashing.md)
+➡️ **Next →** [06-Arrays-Hashing.md](./06-Arrays-Hashing.md)

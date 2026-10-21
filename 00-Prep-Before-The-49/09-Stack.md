@@ -1,10 +1,12 @@
-# 09 · Stack
+# 📚 09 · Stack
 
-**Problems:** **#16–18** · **Status:** complete reference for this block
+> 📌 **At a glance**
+>
+> **Problems:** **#16–18** · **Status:** complete reference for this block
 
 ---
 
-## Core idea · LIFO
+## 💡 Core idea · LIFO
 
 ```text
   push → top
@@ -22,7 +24,7 @@
 
 ---
 
-## Problem-by-problem
+## 📋 Problem-by-problem
 
 | # | Problem | Stack usage |
 |:---:|:---|:---|
@@ -66,14 +68,14 @@ flowchart LR
 
 ---
 
-## Complexity
+## ⏱️ Complexity
 
 Each index pushed/popped ≤ once ⇒ **O(n)** for #16/#18.  
 #17 ops **O(1)** time each if designed well. Space O(n).
 
 ---
 
-## Edge cases
+## 🧪 Edge cases
 
 - Empty string (#16 → true)  
 - Only closers first  
@@ -82,7 +84,7 @@ Each index pushed/popped ≤ once ⇒ **O(n)** for #16/#18.
 
 ---
 
-## C++ mini-example (idea of #16)
+## 💻 C++ mini-example (idea of #16)
 
 ```cpp
 #include <stack>
@@ -109,10 +111,10 @@ bool isValid(string s) {
 
 ---
 
-## Self-check
+## ✅ Self-check
 
 - [ ] I can simulate #16 on `(]` and `()[]`  
 - [ ] I know why a second stack helps getMin  
 - [ ] I can explain “next warmer” with a monotonic stack
 
-Next → [10-Binary-Search.md](./10-Binary-Search.md)
+➡️ **Next →** [10-Binary-Search.md](./10-Binary-Search.md)

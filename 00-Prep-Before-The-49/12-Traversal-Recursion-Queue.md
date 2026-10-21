@@ -1,8 +1,10 @@
-# 12 · Traversal · Recursion · Queue
+# 🔁 12 · Traversal · Recursion · Queue
 
-**Shared engine** for **Trees (#28–39)** and **Graphs (#43–49)**.  
-**Place in the path:** learn this **before** sheets 13 and 15 so recursion / DFS / BFS feel natural there.  
-**Status:** complete reference for traversals used in the 49.
+> 📌 **At a glance**
+>
+> **Shared engine** for **Trees (#28–39)** and **Graphs (#43–49)**.  
+> **Place in the path:** learn this **before** sheets 13 and 15 so recursion / DFS / BFS feel natural there.  
+> **Status:** complete reference for traversals used in the 49.
 
 ---
 
@@ -122,10 +124,10 @@ vector<vector<int>> levelOrder(TreeNode* root) {
 
 ---
 
-## Self-check
+## ✅ Self-check
 
 - [ ] I can write depth recursion in English  
 - [ ] I can simulate BFS on a 3-level tree  
 - [ ] I know why grids need visited marks
 
-Next → [13-Trees-BST.md](./13-Trees-BST.md)
+➡️ **Next →** [13-Trees-BST.md](./13-Trees-BST.md)

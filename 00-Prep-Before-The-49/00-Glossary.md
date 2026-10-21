@@ -1,11 +1,12 @@
-# 00 · Glossary
+# 📖 00 · Glossary
 
-Words for **absolute beginners** (LeetCode + problem solving) **and** for the **49**.  
-Deep dives live in the numbered sheets (`00`–`16`).
+> 📌 **At a glance**  
+> Quick vocabulary for beginners **and** for the 49.  
+> Deep dives live in sheets `00`–`16`.
 
 ---
 
-## World & platform
+## 🌐 World & platform
 
 | Term | Short meaning | See |
 |:---|:---|:---|
@@ -25,7 +26,7 @@ Deep dives live in the numbered sheets (`00`–`16`).
 
 ---
 
-## Efficiency & interviews
+## ⏱️ Efficiency & interviews
 
 | Term | Short meaning | See |
 |:---|:---|:---|
@@ -41,7 +42,7 @@ Deep dives live in the numbered sheets (`00`–`16`).
 
 ---
 
-## Structures & techniques (49)
+## 🧩 Structures & techniques (49)
 
 | Term | Short meaning | See |
 |:---|:---|:---|
@@ -71,4 +72,4 @@ Deep dives live in the numbered sheets (`00`–`16`).
 
 ---
 
-Next → [01-Welcome-To-The-World.md](./01-Welcome-To-The-World.md)
+➡️ **Next →** [01-Welcome-To-The-World.md](./01-Welcome-To-The-World.md)

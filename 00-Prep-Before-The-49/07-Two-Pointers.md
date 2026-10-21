@@ -1,10 +1,12 @@
-# 07 · Two Pointers
+# 👆 07 · Two Pointers
 
-**Problems:** **#9–12** · **Status:** complete reference for this block
+> 📌 **At a glance**
+>
+> **Problems:** **#9–12** · **Status:** complete reference for this block
 
 ---
 
-## Core idea
+## 💡 Core idea
 
 Use **two indices** that move through a structure so you avoid many nested loops.
 
@@ -36,7 +38,7 @@ flowchart TD
 
 ---
 
-## Problem-by-problem
+## 📋 Problem-by-problem
 
 | # | Problem | Pointer rule |
 |:---:|:---|:---|
@@ -62,7 +64,7 @@ flowchart TD
 
 ---
 
-## Complexity
+## ⏱️ Complexity
 
 | Approach | #9–10 | #11 | #12 |
 |:---|:---|:---|:---|
@@ -73,7 +75,7 @@ Space usually **O(1)** extra (plus output / sort may be O(n)).
 
 ---
 
-## Edge cases
+## 🧪 Edge cases
 
 - Empty / length 1 (#9 → true)  
 - No pair sums to target (#10)  
@@ -82,7 +84,7 @@ Space usually **O(1)** extra (plus output / sort may be O(n)).
 
 ---
 
-## C++ mini-example (idea of #10)
+## 💻 C++ mini-example (idea of #10)
 
 ```cpp
 // a is sorted; return 1-based indices if that is what the problem asks
@@ -102,10 +104,10 @@ vector<int> twoSumSorted(vector<int>& a, int target) {
 
 ---
 
-## Self-check
+## ✅ Self-check
 
 - [ ] I know why sorted enables Two Sum II in O(n)  
 - [ ] I can explain why we move the shorter line in #12  
 - [ ] I know to skip duplicates in 3Sum
 
-Next → [08-Sliding-Window.md](./08-Sliding-Window.md)
+➡️ **Next →** [08-Sliding-Window.md](./08-Sliding-Window.md)

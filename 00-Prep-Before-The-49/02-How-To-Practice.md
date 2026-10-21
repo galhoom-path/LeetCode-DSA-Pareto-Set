@@ -1,13 +1,15 @@
-# 02 · How To Practice
+# 🧭 02 · How To Practice
 
-**For:** a repeatable way to **read** any problem and **solve** it (LeetCode, interview, or this repo).  
-**Goal:** never open a statement without a ritual, never code without a plan.
+> 📌 **At a glance**
+>
+> **For:** a repeatable way to **read** any problem and **solve** it (LeetCode, interview, or this repo).  
+> **Goal:** never open a statement without a ritual, never code without a plan.
 
 ---
 
-# Part A — How to read a problem
+## 📗 Part A — How to read a problem
 
-## The 6-pass read (use always)
+### The 6-pass read (use always)
 
 | Pass | Focus | Output |
 |:---:|:---|:---|
@@ -32,7 +34,7 @@ flowchart TD
 
 ---
 
-## Translate English → CS objects
+### Translate English → CS objects
 
 | Statement word | Often means |
 |:---|:---|
@@ -46,7 +48,7 @@ flowchart TD
 
 ---
 
-## Worked micro-example (Contains Duplicate)
+### Worked micro-example (Contains Duplicate)
 
 **Statement idea:** return true if any value appears ≥ 2 times.
 
@@ -63,7 +65,7 @@ Now you are ready for Brute → Optimal (playbook below).
 
 ---
 
-## Red flags in constraints
+### Red flags in constraints
 
 | You see… | Think… |
 |:---|:---|
@@ -75,7 +77,7 @@ Now you are ready for Brute → Optimal (playbook below).
 
 ---
 
-## Interview vs LeetCode reading
+### Interview vs LeetCode reading
 
 | LeetCode | Live interview |
 |:---|:---|
@@ -87,7 +89,7 @@ Same reading passes — plus **ask** if a constraint is missing.
 
 ---
 
-## Self-check
+### ✅ Self-check
 
 - [ ] I have a fixed order: goal → I/O → examples → constraints → edges  
 - [ ] I refuse to code before knowing rough `n`  
@@ -95,9 +97,9 @@ Same reading passes — plus **ask** if a constraint is missing.
 
 ---
 
-# Part B — Problem-solving playbook
+## 📘 Part B — Problem-solving playbook
 
-## The universal loop
+### The universal loop
 
 ```mermaid
 flowchart LR
@@ -117,7 +119,7 @@ flowchart LR
 
 ---
 
-## How **this repo** encodes the loop
+### How **this repo** encodes the loop
 
 Every problem folder:
 
@@ -140,7 +142,7 @@ No draw.io / `.png`. Format = **Mermaid in Markdown** (renders on GitHub). Detai
 
 ---
 
-## Pattern recognition (the shortcut)
+### Pattern recognition (the shortcut)
 
 After prep pattern sheets **06–15**, you will ask:
 
@@ -162,7 +164,7 @@ Full map: [05-Pattern-Map-For-The-49.md](./05-Pattern-Map-For-The-49.md).
 
 ---
 
-## When you are stuck (anywhere — not only the 49)
+### When you are stuck (anywhere — not only the 49)
 
 1. Re-trace an **example by hand**  
 2. Write the **brute** even if ugly  
@@ -173,7 +175,7 @@ Full map: [05-Pattern-Map-For-The-49.md](./05-Pattern-Map-For-The-49.md).
 
 ---
 
-## Practice hygiene (general)
+### Practice hygiene (general)
 
 | Do | Don’t |
 |:---|:---|
@@ -184,7 +186,7 @@ Full map: [05-Pattern-Map-For-The-49.md](./05-Pattern-Map-For-The-49.md).
 
 ---
 
-## After the 49
+### After the 49
 
 The playbook stays the same:
 
@@ -200,10 +202,10 @@ This folder is your **home base**; the 49 are the first **campaign**.
 
 ---
 
-## Self-check (playbook)
+### Self-check (playbook)
 
 - [ ] I can list the 5 loop steps without looking  
 - [ ] I know how Brute/Opt/Optimal map to interview talk  
 - [ ] I have a stuck protocol
 
-Next → [03-Big-O-And-Edges.md](./03-Big-O-And-Edges.md)
+➡️ **Next →** [03-Big-O-And-Edges.md](./03-Big-O-And-Edges.md)

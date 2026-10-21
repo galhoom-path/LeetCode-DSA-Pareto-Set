@@ -8,7 +8,10 @@
 
 This repository is my **structured path through the 49 essential LeetCode problems** from **The Pareto Problem Set** — the high-ROI DSA patterns that show up again and again in interviews.
 
-**Current state:** the **prep pack is complete**; solutions are added **one problem at a time** (I write the three C++ approaches; Cursor AI adds the three Mermaid flowcharts). Unsolved checklist items are normal — not missing work.
+> 📌 **Current state**  
+> - Prep pack (`00-Prep-Before-The-49/`) → **complete**  
+> - Solutions → **one problem at a time** (I write the three `.c++` files; Cursor AI adds the three Mermaid charts)  
+> - Unchecked checklist items → **normal**, not missing work
 
 ---
 

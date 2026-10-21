@@ -1,10 +1,12 @@
-# 11 · Linked List
+# 🔗 11 · Linked List
 
-**Problems:** **#22–27** · **Status:** complete reference for this block
+> 📌 **At a glance**
+>
+> **Problems:** **#22–27** · **Status:** complete reference for this block
 
 ---
 
-## Core idea
+## 💡 Core idea
 
 Each **node** stores a value and a pointer to the next node (`next`). Optional `prev` for doubly linked lists (LRU).
 
@@ -80,7 +82,7 @@ flowchart LR
 
 ---
 
-## Problem-by-problem
+## 📋 Problem-by-problem
 
 | # | Problem | Key idea |
 |:---:|:---|:---|
@@ -93,7 +95,7 @@ flowchart LR
 
 ---
 
-## Complexity
+## ⏱️ Complexity
 
 | Technique | Time | Extra space |
 |:---|:---|:---|
@@ -103,7 +105,7 @@ flowchart LR
 
 ---
 
-## Edge cases
+## 🧪 Edge cases
 
 - Empty / one node  
 - Remove head (#25)  
@@ -113,7 +115,7 @@ flowchart LR
 
 ---
 
-## C++ mini-example (idea of #22)
+## 💻 C++ mini-example (idea of #22)
 
 ```cpp
 struct ListNode {
@@ -139,10 +141,10 @@ ListNode* reverseList(ListNode* head) {
 
 ---
 
-## Self-check
+## ✅ Self-check
 
 - [ ] I can reverse a 3-node list on paper  
 - [ ] I can explain why fast/slow finds a cycle  
 - [ ] I know LRU needs both map and list for O(1)
 
-Next → [12-Traversal-Recursion-Queue.md](./12-Traversal-Recursion-Queue.md)
+➡️ **Next →** [12-Traversal-Recursion-Queue.md](./12-Traversal-Recursion-Queue.md)

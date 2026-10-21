@@ -1,10 +1,12 @@
-# 08 · Sliding Window
+# 🪟 08 · Sliding Window
 
-**Problems:** **#13–15** · **Status:** complete reference for this block
+> 📌 **At a glance**
+>
+> **Problems:** **#13–15** · **Status:** complete reference for this block
 
 ---
 
-## Core idea
+## 💡 Core idea
 
 Maintain a **contiguous** segment `[L, R]`.  
 Expand `R` to include more; shrink `L` when the window breaks the rule; track the best answer.
@@ -29,7 +31,7 @@ Often need a **count map** / last-seen index for what is inside the window.
 
 ---
 
-## Problem-by-problem
+## 📋 Problem-by-problem
 
 | # | Problem | Window / state |
 |:---:|:---|:---|
@@ -50,14 +52,14 @@ Often need a **count map** / last-seen index for what is inside the window.
 
 ---
 
-## Complexity
+## ⏱️ Complexity
 
 Both `L` and `R` only move forward ⇒ **O(n)** time.  
 Space **O(Σ)** (alphabet / distinct chars in window).
 
 ---
 
-## Edge cases
+## 🧪 Edge cases
 
 - Empty string  
 - All unique / all same  
@@ -66,7 +68,7 @@ Space **O(Σ)** (alphabet / distinct chars in window).
 
 ---
 
-## C++ mini-example (idea of #14)
+## 💻 C++ mini-example (idea of #14)
 
 ```cpp
 #include <string>
@@ -92,10 +94,10 @@ int lengthOfLongestSubstring(string s) {
 
 ---
 
-## Self-check
+## ✅ Self-check
 
 - [ ] I can draw L/R expanding and shrinking  
 - [ ] I can state the validity rule for #15  
 - [ ] I know #13 is “min so far” not a classic two-bound window
 
-Next → [09-Stack.md](./09-Stack.md)
+➡️ **Next →** [09-Stack.md](./09-Stack.md)

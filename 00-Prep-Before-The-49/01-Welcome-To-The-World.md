@@ -1,7 +1,9 @@
-# 01 · Welcome To The World
+# 🌍 01 · Welcome To The World
 
-**For:** absolute beginners — problem solving **and** LeetCode.  
-**Goal:** know what this world is, why people train in it, and how an online judge works.
+> 📌 **At a glance**
+>
+> **For:** absolute beginners — problem solving **and** LeetCode.  
+> **Goal:** know what this world is, why people train in it, and how an online judge works.
 
 ---
 
@@ -94,11 +96,9 @@ That loop is the same whether the company uses LeetCode-style rounds or a simila
 
 ---
 
----
+## 📘 Part B — LeetCode (the judge this repo uses)
 
-# Part B — LeetCode (the judge this repo uses)
-
-## What LeetCode is
+### What LeetCode is
 
 [LeetCode](https://leetcode.com/) is an **online practice platform**:
 
@@ -122,7 +122,7 @@ Other judges exist (HackerRank, Codeforces, …). The **habits** transfer. This 
 
 ---
 
-## Difficulty labels
+### Difficulty labels
 
 | Label | Rough meaning |
 |:---|:---|
@@ -134,7 +134,7 @@ The **49** mix Easy/Medium (and the patterns behind Hard interviews). Difficulty
 
 ---
 
-## Anatomy of a LeetCode problem page
+### Anatomy of a LeetCode problem page
 
 When you open any checklist link, expect:
 
@@ -161,7 +161,7 @@ When you open any checklist link, expect:
 
 ---
 
-## Submit outcomes (common)
+### Submit outcomes (common)
 
 | Result | Meaning |
 |:---|:---|
@@ -175,7 +175,7 @@ TLE on large `n` is your cue: the brute force was understood — now optimize (e
 
 ---
 
-## How this repo uses LeetCode
+### How this repo uses LeetCode
 
 | LeetCode | This repo |
 |:---|:---|
@@ -187,7 +187,7 @@ You can solve **offline** in the repo folders first, then paste into LeetCode to
 
 ---
 
-## Account tips (beginner)
+### Account tips (beginner)
 
 - Free account is enough for the 49  
 - Save notes / star problems if you like  
@@ -195,9 +195,7 @@ You can solve **offline** in the repo folders first, then paste into LeetCode to
 
 ---
 
----
-
-## Self-check
+### ✅ Self-check
 
 - [ ] I can explain problem solving in one sentence  
 - [ ] I know why interviews use these puzzles  
@@ -206,4 +204,4 @@ You can solve **offline** in the repo folders first, then paste into LeetCode to
 - [ ] I always read **Constraints**  
 - [ ] I know TLE usually means “need a better complexity”
 
-Next → [02-How-To-Practice.md](./02-How-To-Practice.md)
+➡️ **Next →** [02-How-To-Practice.md](./02-How-To-Practice.md)

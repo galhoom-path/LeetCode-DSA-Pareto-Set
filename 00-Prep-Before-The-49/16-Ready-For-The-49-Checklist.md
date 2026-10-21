@@ -1,20 +1,19 @@
-# 16 · Ready For The 49 — Mastery Checklist
+# ✅ 16 · Ready For The 49 — Mastery Checklist
 
-This prep pack is a **finished study reference** for:
+> 📌 **At a glance**  
+> This pack is finished study material for: (1) entering PS + LeetCode, and (2) being ready for **these 49**.  
+> When most boxes are honest **yes**, start solving — one problem at a time.
 
-1. Entering **problem solving + LeetCode** as a beginner  
-2. Being ready for **these 49 problems** specifically  
+### How you start problem folders
 
-When most boxes are honest **yes**, open `01-Contains-Duplicate-…` (gold-standard folder) and begin:
+1. **You** write `1-Brute-Force.c++` → `2-Optimized.c++` → `3-Optimal.c++`  
+2. **Cursor AI** writes the matching `*.flowchart.md` (Mermaid)  
 
-1. **You:** `1-Brute-Force.c++` → `2-Optimized.c++` → `3-Optimal.c++`  
-2. **Cursor AI:** matching `*.flowchart.md` (Mermaid) for each approach  
-
-Then continue **one problem at a time** — create the next folder only when you start that problem.
+Gold standard: `01-Contains-Duplicate-…`. Create the next folder only when you start that problem.
 
 ---
 
-## A · World entry (newcomers)
+## 🌍 A · World entry (newcomers)
 
 - [ ] I can explain what **interview-style problem solving** is  
 - [ ] I know what **LeetCode** / an online judge does (Run vs Submit)  
@@ -22,13 +21,13 @@ Then continue **one problem at a time** — create the next folder only when you
 - [ ] I have a ritual to **read** a problem (goal → I/O → examples → constraints → edges)  
 - [ ] I know the playbook: **Understand → Brute → Improve → Test → Big O**  
 
-## B · Vocabulary
+## 🔤 B · Vocabulary
 
 - [ ] I can define **time complexity**, **space complexity**, **Big O**  
 - [ ] I know **O(1), O(log n), O(n), O(n log n), O(n²)** by feel  
 - [ ] I can define **edge case** and list 5 universal ones  
 
-## C · Patterns (name + one sentence)
+## 🧩 C · Patterns (name + one sentence)
 
 - [ ] Arrays & Hashing  
 - [ ] Two Pointers  
@@ -40,7 +39,7 @@ Then continue **one problem at a time** — create the next folder only when you
 - [ ] Heap / kth largest with size-k min-heap  
 - [ ] Graphs / flood fill / topo & cycle  
 
-## D · C++ track (this repo) — or “I can translate”
+## 💻 D · C++ track (this repo) — or “I can translate”
 
 - [ ] I recognize a LeetCode `Solution` signature  
 - [ ] I can loop a `vector` and pass by reference `&`  
@@ -48,12 +47,12 @@ Then continue **one problem at a time** — create the next folder only when you
 - [ ] I null-check before `->` on list/tree nodes  
 - [ ] **Other language:** I can map each C++ snippet to my language  
 
-## E · Map & tools
+## 🗺️ E · Map & tools
 
 - [ ] I can find any `#1–49` on [05-Pattern-Map](./05-Pattern-Map-For-The-49.md)  
 - [ ] I recognize `ListNode` / `TreeNode`  
 
-## F · Mindset
+## 🧠 F · Mindset
 
 - [ ] Before coding I can state: brute idea, better idea, 2 edges, Big O  
 - [ ] I understand: **prep is done here** · **solving happens in 01…49** (I write C++; Cursor draws Mermaid charts)  
@@ -62,7 +61,7 @@ Then continue **one problem at a time** — create the next folder only when you
 
 ---
 
-## If something is still fuzzy
+## 🔍 If something is still fuzzy
 
 | Fuzzy about… | Re-read |
 |:---|:---|
@@ -77,7 +76,7 @@ Then continue **one problem at a time** — create the next folder only when you
 
 ---
 
-## Sources
+## 📚 Sources
 
 Use these when a sheet is clear but you want a primary reference.  
 Stay inside topics that appear in the **49** (plus general LeetCode orientation).
@@ -86,7 +85,7 @@ Stay inside topics that appear in the **49** (plus general LeetCode orientation)
 
 ---
 
-## Complexity
+## ⏱️ Complexity
 
 | Resource | Use |
 |:---|:---|

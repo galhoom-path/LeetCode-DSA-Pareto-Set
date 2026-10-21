@@ -1,10 +1,12 @@
-# 06 · Arrays & Hashing
+# 📦 06 · Arrays & Hashing
 
-**Problems:** **#1–8** · **Status:** complete reference for this block
+> 📌 **At a glance**
+>
+> **Problems:** **#1–8** · **Status:** complete reference for this block
 
 ---
 
-## Core ideas
+## 💡 Core ideas
 
 | Structure | What it gives you |
 |:---|:---|
@@ -40,7 +42,7 @@ flowchart LR
 
 ---
 
-## Problem-by-problem (what to know before coding)
+## 📋 Problem-by-problem (what to know before coding)
 
 | # | Problem | You must understand |
 |:---:|:---|:---|
@@ -81,7 +83,7 @@ Used in #8 — only expand a streak from numbers that have `x-1` **missing**.
 
 ---
 
-## Complexity targets (after Optimal)
+## ⏱️ Complexity targets (after Optimal)
 
 | # | Typical Optimal time | Typical extra space |
 |:---:|:---|:---|
@@ -91,7 +93,7 @@ Used in #8 — only expand a streak from numbers that have `x-1` **missing**.
 
 ---
 
-## Edge cases for #1–8
+## 🧪 Edge cases for #1–8
 
 - Empty / one element  
 - No duplicates vs all duplicates  
@@ -102,7 +104,7 @@ Used in #8 — only expand a streak from numbers that have `x-1` **missing**.
 
 ---
 
-## C++ mini-example (idea of #1)
+## 💻 C++ mini-example (idea of #1)
 
 ```cpp
 #include <vector>
@@ -124,10 +126,10 @@ C++ track: [04](./04-Cpp-For-The-49.md).
 
 ---
 
-## Self-check
+## ✅ Self-check
 
 - [ ] I can explain set vs map  
 - [ ] I can sketch Two Sum with a map on paper  
 - [ ] I know why #7 needs prefix/suffix
 
-Next → [07-Two-Pointers.md](./07-Two-Pointers.md)
+➡️ **Next →** [07-Two-Pointers.md](./07-Two-Pointers.md)

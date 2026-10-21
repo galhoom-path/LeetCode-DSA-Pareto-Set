@@ -1,11 +1,13 @@
-# 15 · Graphs
+# 🌐 15 · Graphs
 
-**Problems:** **#43–49** · **Status:** complete reference for this block  
-**Requires:** [12 · Traversal](./12-Traversal-Recursion-Queue.md) (DFS / BFS) — you already passed it if you follow `Next →`.
+> 📌 **At a glance**
+>
+> **Problems:** **#43–49** · **Status:** complete reference for this block  
+> **Requires:** [12 · Traversal](./12-Traversal-Recursion-Queue.md) (DFS / BFS) — you already passed it if you follow `Next →`.
 
 ---
 
-## Core idea
+## 💡 Core idea
 
 **Vertices (nodes)** connected by **edges**.
 
@@ -76,7 +78,7 @@ flowchart LR
 
 ---
 
-## Complexity
+## ⏱️ Complexity
 
 | Setting | Time |
 |:---|:---|
@@ -85,7 +87,7 @@ flowchart LR
 
 ---
 
-## Edge cases
+## 🧪 Edge cases
 
 - Empty grid  
 - All water / all land  
@@ -95,7 +97,7 @@ flowchart LR
 
 ---
 
-## C++ mini-example (idea of #43 · flood fill)
+## 💻 C++ mini-example (idea of #43 · flood fill)
 
 ```cpp
 #include <vector>
@@ -123,7 +125,7 @@ DFS/BFS templates: [12](./12-Traversal-Recursion-Queue.md).
 
 ---
 
-## Self-check
+## ✅ Self-check
 
 - [ ] I can flood-fill a 3×3 island on paper  
 - [ ] I know why cloning needs an old→new map  
@@ -131,4 +133,4 @@ DFS/BFS templates: [12](./12-Traversal-Recursion-Queue.md).
 
 If you have not studied C++ yet: [04-Cpp-For-The-49.md](./04-Cpp-For-The-49.md).
 
-Next → [16-Ready-For-The-49-Checklist.md](./16-Ready-For-The-49-Checklist.md)
+➡️ **Next →** [16-Ready-For-The-49-Checklist.md](./16-Ready-For-The-49-Checklist.md)

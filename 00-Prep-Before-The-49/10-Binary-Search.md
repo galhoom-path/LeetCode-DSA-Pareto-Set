@@ -1,10 +1,12 @@
-# 10 · Binary Search
+# 🎯 10 · Binary Search
 
-**Problems:** **#19–21** · **Status:** complete reference for this block
+> 📌 **At a glance**
+>
+> **Problems:** **#19–21** · **Status:** complete reference for this block
 
 ---
 
-## Core idea
+## 💡 Core idea
 
 On a **sorted** range, compare the middle and discard half.
 
@@ -42,7 +44,7 @@ At `mid`, **at least one half is sorted**. Use that to decide where min / target
 
 ---
 
-## Problem-by-problem
+## 📋 Problem-by-problem
 
 | # | Problem | What to know |
 |:---:|:---|:---|
@@ -66,14 +68,14 @@ return -1
 
 ---
 
-## Complexity
+## ⏱️ Complexity
 
 Each step halves the search space ⇒ **O(log n)** time, **O(1)** extra space  
 (same for the rotated variants in #20–21 when done carefully).
 
 ---
 
-## Edge cases
+## 🧪 Edge cases
 
 - `n == 1`  
 - Not rotated  
@@ -83,7 +85,7 @@ Each step halves the search space ⇒ **O(log n)** time, **O(1)** extra space
 
 ---
 
-## C++ mini-example (classic search)
+## 💻 C++ mini-example (classic search)
 
 ```cpp
 #include <vector>
@@ -105,10 +107,10 @@ int search(vector<int>& a, int target) {
 
 ---
 
-## Self-check
+## ✅ Self-check
 
 - [ ] I can hand-simulate binary search on 7 elements  
 - [ ] I can draw a rotated array and mark the sorted half  
 - [ ] I know why mid uses `L+(R-L)/2`
 
-Next → [11-Linked-List.md](./11-Linked-List.md)
+➡️ **Next →** [11-Linked-List.md](./11-Linked-List.md)
