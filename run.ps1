@@ -16,7 +16,7 @@ param(
     [string]$File = ""
 )
 
-$ErrorActionPreference = "Stop"
+$ErrorActionPreference = "Continue"
 
 function Find-GPlusPlus {
     $cmd = Get-Command g++ -ErrorAction SilentlyContinue
@@ -30,9 +30,9 @@ function Find-GPlusPlus {
         "C:\WinLibs\mingw64\bin"
     )
     foreach ($root in $candidates) {
-        Get-ChildItem -Path $root -Filter "g++.exe" -Recurse -ErrorAction SilentlyContinue |
-            Select-Object -First 1 |
-            ForEach-Object { return $_.FullName }
+        $hit = Get-ChildItem -Path $root -Filter "g++.exe" -Recurse -ErrorAction SilentlyContinue |
+            Select-Object -First 1
+        if ($hit) { return $hit.FullName }
     }
     return $null
 }
@@ -68,7 +68,8 @@ if (-not (Test-Path -LiteralPath $File)) {
 
 $src = (Resolve-Path -LiteralPath $File).Path
 $outDir = Split-Path -Parent $src
-$base = [System.IO.Path]::GetFileNameWithoutExtension($src)
+# .c++ → strip the full suffix (GetFileNameWithoutExtension alone is unreliable here)
+$base = [System.IO.Path]::GetFileName($src) -replace '\.c\+\+$', ''
 $exe = Join-Path $outDir "$base.exe"
 
 Write-Host "Compiler: $gpp" -ForegroundColor DarkGray
@@ -76,14 +77,36 @@ Write-Host "Source:   $src"
 Write-Host "Output:   $exe"
 Write-Host ""
 
-& $gpp -std=c++17 -O2 -Wall -Wextra -o $exe $src
-if ($LASTEXITCODE -ne 0) {
-    Write-Host "Compile failed." -ForegroundColor Red
-    exit $LASTEXITCODE
+# Avoid "Permission denied" if a previous .exe is locked
+if (Test-Path -LiteralPath $exe) {
+    try { Remove-Item -LiteralPath $exe -Force -ErrorAction Stop }
+    catch {
+        Write-Host "Cannot overwrite $exe (file in use?). Close any running copy and retry." -ForegroundColor Red
+        exit 1
+    }
+}
+
+$compileOutput = & $gpp -std=c++17 -O2 -Wall -Wextra -o $exe $src 2>&1
+$compileCode = $LASTEXITCODE
+if ($null -eq $compileCode) { $compileCode = 0 }
+
+if ($compileOutput) {
+    $compileOutput | ForEach-Object { Write-Host $_ }
+}
+
+if ($compileCode -ne 0) {
+    Write-Host "Compile failed (exit $compileCode)." -ForegroundColor Red
+    exit $compileCode
+}
+
+if (-not (Test-Path -LiteralPath $exe)) {
+    Write-Host "Compile reported success but exe was not created: $exe" -ForegroundColor Red
+    exit 1
 }
 
 Write-Host "--- run ---" -ForegroundColor Cyan
 & $exe
 $runCode = $LASTEXITCODE
+if ($null -eq $runCode) { $runCode = 0 }
 Write-Host "--- exit $runCode ---" -ForegroundColor Cyan
 exit $runCode
