@@ -12,17 +12,31 @@ Solutions are in **C++**. Ideas are language-agnostic (translate the snippets if
 
 ---
 
-## 📌 Current state
+## 📊 Progress (live tracker)
+
+> **You** tick boxes as you finish. Full dashboard → **[`PROGRESS.md`](./PROGRESS.md)**
+
+| Track | Bar | Count |
+|:---|:---|:---:|
+| Prep sheets (read + understand) | `░░░░░░░░░░` | **0 / 17** |
+| Pareto 49 (solved) | `█░░░░░░░░░` | **1 / 49** |
+| Combined | `░░░░░░░░░░` | **1 / 66** |
+
+```text
+  Prep     [░░░░░░░░░░]  0/17   ← tick each sheet as you finish reading
+  Problems [█░░░░░░░░░]  1/49   ← #1 done; continue one at a time
+```
+
+**How you know a prep file is done:** open it → tick **Read** + **Explain** at the top → tick the same line in [`PROGRESS.md`](./PROGRESS.md) → refresh the bars.
+
+### Repo infrastructure (not your study %)
 
 | Piece | Status |
 |:---|:---|
-| Prep pack [`00-Prep-Before-The-49/`](./00-Prep-Before-The-49/) | ✅ Complete (`00`→`16`) |
-| Live coding habits (technical) | ✅ In prep ([6 steps](./00-Prep-Before-The-49/02-How-To-Practice.md#live-coding-interview--6-steps)) |
-| Problem **#1** gold standard | ✅ [`01-Contains-Duplicate-…`](./01-Contains-Duplicate-Arrays-Hashing-Easy/) · 6 files · Mermaid only |
-| Problems **#2–49** | ▶️ Unchecked = not started yet (normal) |
-| Empty stub folders | ❌ Never |
-
-**Progress:** `1 / 49` solved · one problem at a time.
+| Prep pack content [`00-…`](./00-Prep-Before-The-49/) | ✅ Written (`00`→`16`) |
+| Live coding habits | ✅ In prep ([6 steps](./00-Prep-Before-The-49/02-How-To-Practice.md#live-coding-interview--6-steps)) |
+| Gold standard **#1** | ✅ [`01-Contains-Duplicate-…`](./01-Contains-Duplicate-Arrays-Hashing-Easy/) |
+| Empty stubs | ❌ Never |
 
 ---
 
@@ -84,7 +98,8 @@ Agent rules: [`AGENTS.md`](./AGENTS.md).
 
 ```text
 LeetCode-DSA-Pareto-Set/
-├── 00-Prep-Before-The-49/     ← complete study reference (read first)
+├── PROGRESS.md                ← your live bars + prep sheet ticks
+├── 00-Prep-Before-The-49/     ← study reference (tick progress as you read)
 ├── 01-…/                      ← one folder per solved / in-progress problem
 ├── .cursor/rules/             ← you code C++ · AI owns Mermaid charts
 ├── AGENTS.md                  ← how Cursor must behave here
@@ -115,7 +130,8 @@ Create the next folder **only when you start that problem**.
 
 ## 📋 Problem Checklist (49 Problems)
 
-> New here? Finish [`00-Prep-Before-The-49`](./00-Prep-Before-The-49/) first, then solve and tick top → bottom.
+> New here? Finish [`00-Prep-Before-The-49`](./00-Prep-Before-The-49/) first (tick sheets in [`PROGRESS.md`](./PROGRESS.md)), then solve and mark `[✅]` top → bottom.  
+> After each solved folder, update the **Problems** bar in [`PROGRESS.md`](./PROGRESS.md).
 
 ### 🧮 Arrays & Hashing
 

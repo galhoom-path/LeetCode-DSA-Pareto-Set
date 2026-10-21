@@ -1,5 +1,14 @@
 # ⏱️ 03 · Big O And Edges
 
+
+### ✅ My progress · this sheet
+
+- [ ] I **read** this sheet end-to-end
+- [ ] I can **explain** the main ideas without looking
+
+> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#prep-sheets--your-reading-progress) and refresh the bars.
+
+---
 > 📌 **At a glance**
 >
 > **Goal:** read every Time/Space line in the 49, and never ship a “happy-path only” solution.

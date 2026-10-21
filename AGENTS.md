@@ -23,8 +23,15 @@
 
 ## 📋 Checklist vs folders
 
-- Root README checklist tracks progress (`[✅]` / `[ ]`).  
+- Root README checklist tracks **solve** progress (`[✅]` / `[ ]`).  
+- [`PROGRESS.md`](./PROGRESS.md) tracks **prep reading** (17 sheets) + bars for prep / 49 / combined.  
 - A folder exists only for problems being worked or done — never empty 0-byte stubs for future numbers.
+
+## 📊 Progress ownership
+
+- **Human** ticks prep sheet boxes, `PROGRESS.md` lines, and README `[✅]` when *they* finish.  
+- **Cursor must not** mark study/solve progress as done for the human.  
+- When the human finishes a problem folder (or asks to sync), Cursor may **recount** and refresh the bars in `PROGRESS.md` + root README to match the checklists.
 
 ## 🔄 Git / GitHub (automatic)
 

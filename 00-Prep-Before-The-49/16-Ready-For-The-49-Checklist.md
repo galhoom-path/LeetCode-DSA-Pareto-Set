@@ -1,5 +1,14 @@
 # ✅ 16 · Ready For The 49 — Mastery Checklist
 
+
+### ✅ My progress · this sheet
+
+- [ ] I **read** this sheet end-to-end
+- [ ] I can **explain** the main ideas without looking
+
+> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#prep-sheets--your-reading-progress) and refresh the bars.
+
+---
 > 📌 **At a glance**  
 > This pack is finished study material for: (1) entering PS + LeetCode, and (2) being ready for **these 49**.  
 > When most boxes are honest **yes**, start solving — one problem at a time.

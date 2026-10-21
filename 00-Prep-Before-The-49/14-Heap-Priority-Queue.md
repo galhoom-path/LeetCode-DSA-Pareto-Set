@@ -1,5 +1,14 @@
 # ⛰️ 14 · Heap · Priority Queue
 
+
+### ✅ My progress · this sheet
+
+- [ ] I **read** this sheet end-to-end
+- [ ] I can **explain** the main ideas without looking
+
+> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#prep-sheets--your-reading-progress) and refresh the bars.
+
+---
 > 📌 **At a glance**
 >
 > **Problems:** **#40–42** (also helps **#5** Top K) · **Status:** complete reference for this block

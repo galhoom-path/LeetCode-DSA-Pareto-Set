@@ -1,5 +1,14 @@
 # 📖 00 · Glossary
 
+
+### ✅ My progress · this sheet
+
+- [ ] I **read** this sheet end-to-end
+- [ ] I can **explain** the main ideas without looking
+
+> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#prep-sheets--your-reading-progress) and refresh the bars.
+
+---
 > 📌 **At a glance**  
 > The **20% of words** you’ll see again and again in this repo and on LeetCode.  
 > Each entry: what it **is** + the **one thing** to remember (Pareto — enough to understand, not a textbook).  

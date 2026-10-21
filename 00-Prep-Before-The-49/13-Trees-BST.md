@@ -1,5 +1,14 @@
 # 🌳 13 · Trees · BST
 
+
+### ✅ My progress · this sheet
+
+- [ ] I **read** this sheet end-to-end
+- [ ] I can **explain** the main ideas without looking
+
+> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#prep-sheets--your-reading-progress) and refresh the bars.
+
+---
 > 📌 **At a glance**
 >
 > **Problems:** **#28–39** · **Status:** complete reference for this block  
