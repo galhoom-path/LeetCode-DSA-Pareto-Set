@@ -6,14 +6,23 @@
 
 > **"Master the 20% of problems that give you 80% of the results."**
 
-This repository is my **structured path through the 49 essential LeetCode problems** from **The Pareto Problem Set** — the high-ROI DSA patterns that show up again and again in interviews.
+Structured path through the **49 essential LeetCode problems** from **The Pareto Problem Set** — the high-ROI DSA patterns that show up again and again in interviews.
 
-> 📌 **Current state**  
-> - Prep pack (`00-Prep-Before-The-49/`) → **complete** (on-ramp + patterns + live coding habits)  
-> - Solutions → **one problem at a time** (I write the three `.c++` files; Cursor AI adds the three Mermaid charts)  
-> - Gold standard folder → `01-Contains-Duplicate-…` (six files; Mermaid only)  
-> - Unchecked checklist items → **normal**, not missing work  
-> - No empty stubs for unsolved problems · no draw.io / PNG charts
+Solutions are in **C++**. Ideas are language-agnostic (translate the snippets if you use something else).
+
+---
+
+## 📌 Current state
+
+| Piece | Status |
+|:---|:---|
+| Prep pack [`00-Prep-Before-The-49/`](./00-Prep-Before-The-49/) | ✅ Complete (`00`→`16`) |
+| Live coding habits (technical) | ✅ In prep ([6 steps](./00-Prep-Before-The-49/02-How-To-Practice.md#live-coding-interview--6-steps)) |
+| Problem **#1** gold standard | ✅ [`01-Contains-Duplicate-…`](./01-Contains-Duplicate-Arrays-Hashing-Easy/) · 6 files · Mermaid only |
+| Problems **#2–49** | ▶️ Unchecked = not started yet (normal) |
+| Empty stub folders | ❌ Never |
+
+**Progress:** `1 / 49` solved · one problem at a time.
 
 ---
 
@@ -21,97 +30,74 @@ This repository is my **structured path through the 49 essential LeetCode proble
 
 Not everyone who opens this repo already knows Big O, edge cases, or the patterns behind these 49 problems.
 
-**Before the checklist**, study the complete reference pack:
+**Before the checklist below**, study the complete reference pack:
 
 ### → [`00-Prep-Before-The-49/`](./00-Prep-Before-The-49/)
 
-That folder is a **finished educational guide** for:
-
-1. **Absolute beginners** — problem solving + LeetCode culture  
-2. **The 49 specifically** — Big O, edges, pattern map, category sheets  
-3. **C++ in this repo** — one short C++/STL sheet to read and write solutions (other languages: same ideas, translate the snippets)
-
-It does **not** wait on you solving. You **read** it first; you **solve** later in `01`…`49`.  
-Sheets are numbered in **study order** (`00`→`16`).
+| You get… | Sheets |
+|:---|:---|
+| World + how to read & practice | `00`–`02` |
+| Big O + edges | `03` |
+| C++ enough for this repo | `04` |
+| Map of all 49 + pattern sheets | `05`–`15` (DFS/BFS **before** trees/graphs) |
+| Ready checklist + sources | `16` |
 
 ```text
-  00-Prep-Before-The-49/   (on-ramp + C++ enough + patterns — complete)
+  00-Prep-Before-The-49/   ← read first (complete)
            ↓
-  01…49 problem folders    (you solve in C++)
+  01…49 problem folders    ← solve in C++ (create folder when you start)
 ```
+
+Full study order: [`00-Prep-Before-The-49/README.md`](./00-Prep-Before-The-49/README.md).
 
 ---
 
-## 🚀 Problem-Solving Methodology
+## 🚀 How each problem works
 
-Each problem uses **three coded approaches** + **one Mermaid flowchart per approach** (three charts total).
+Each finished problem folder has **three C++ approaches** + **one Mermaid flowchart per approach**.
 
 ### Who does what
 
 | Work | Owner |
 |:---|:---|
-| `1-Brute-Force.c++` · `2-Optimized.c++` · `3-Optimal.c++` | **You** (write / revise the C++) |
-| `1-Brute-Force.flowchart.md` · `2-Optimized.flowchart.md` · `3-Optimal.flowchart.md` | **Cursor AI** (reads your C++ and draws the flow) |
+| `1-Brute-Force.c++` · `2-Optimized.c++` · `3-Optimal.c++` | **You** |
+| `1-Brute-Force.flowchart.md` · `2-Optimized.flowchart.md` · `3-Optimal.flowchart.md` | **Cursor AI** (from your C++) |
 
-No draw.io. No `.png` exports. Charts live as **Mermaid inside Markdown** so GitHub renders them and git can diff them.
+No draw.io. No `.png` charts. Mermaid in Markdown → renders on GitHub and diffs cleanly.
 
-### The three approaches (you code)
+### The three approaches
 
-1. **🧩 Brute Force** — straightforward correct C++; prove you understand the statement (may be slow).  
-2. **⚡ Optimized** — better time and/or space than brute.  
-3. **🏆 Optimal** — best practical interview solution here (clarity + efficiency).
+1. **🧩 Brute Force** — honest slow-correct baseline  
+2. **⚡ Optimized** — better time and/or space  
+3. **🏆 Optimal** — best practical interview solution here  
 
-In a **live** coding round, say the work out loud with the prep **6 steps** (clarify → examples → brute → optimize → code → test) — see [`02 · Live coding`](./00-Prep-Before-The-49/02-How-To-Practice.md#live-coding-interview--6-steps).
+### Live interview packaging
 
-### The three flowcharts (Cursor AI)
+Same solve brain, spoken as **6 steps**: clarify → examples → brute → optimize → code → test.  
+Details: [`02 · Live coding`](./00-Prep-Before-The-49/02-How-To-Practice.md#live-coding-interview--6-steps).
 
-After (or when) the matching `.c++` file exists, Cursor creates / updates the sibling `.flowchart.md` so **each approach has its own chart** — not one chart for Optimal only.
-
-Ideal chart file:
-
-- Short title + which `.c++` it mirrors  
-- One ` ```mermaid ` flowchart (TD) of the **control flow** of that approach  
-- Optional one-line complexity reminder  
+Agent rules: [`AGENTS.md`](./AGENTS.md).
 
 ---
 
-## 🗂️ Repository Structure
+## 🗂️ Repository structure
 
 ```text
 LeetCode-DSA-Pareto-Set/
 ├── 00-Prep-Before-The-49/     ← complete study reference (read first)
-├── 01-…/                      ← one folder per *solved / in-progress* problem
+├── 01-…/                      ← one folder per solved / in-progress problem
 ├── .cursor/rules/             ← you code C++ · AI owns Mermaid charts
-├── AGENTS.md                  ← how Cursor must behave in this repo
+├── AGENTS.md                  ← how Cursor must behave here
 └── README.md
 ```
 
-Create a problem folder **when you start that problem** — do not leave empty stub `.c++` files for unsolved items.
-
-### Prep folder
-
-See [`00-Prep-Before-The-49/README.md`](./00-Prep-Before-The-49/README.md).
-
-### Problem folders
-
-Naming:
+### Problem folder naming
 
 ```text
 Problem-Number-Problem-Name-Category-difficulty
 ```
 
-Each folder includes:
-
-| File | Role |
-|:---|:---|
-| `1-Brute-Force.c++` | Your brute solution (+ comments: steps, Big O, edges) |
-| `2-Optimized.c++` | Your mid improvement |
-| `3-Optimal.c++` | Your best practical solution |
-| `1-Brute-Force.flowchart.md` | AI Mermaid for brute |
-| `2-Optimized.flowchart.md` | AI Mermaid for optimized |
-| `3-Optimal.flowchart.md` | AI Mermaid for optimal |
-
-**Gold-standard example** (copy this shape for every later folder):
+### Gold-standard shape (copy for every later folder)
 
 ```text
 01-Contains-Duplicate-Arrays-Hashing-Easy/
@@ -123,11 +109,13 @@ Each folder includes:
     └── 3-Optimal.flowchart.md
 ```
 
+Create the next folder **only when you start that problem**.
+
 ---
 
 ## 📋 Problem Checklist (49 Problems)
 
-> New here — even if you’ve never heard of LeetCode? Study [`00-Prep-Before-The-49`](./00-Prep-Before-The-49/) first (world + patterns), then solve and tick problems top → bottom.
+> New here? Finish [`00-Prep-Before-The-49`](./00-Prep-Before-The-49/) first, then solve and tick top → bottom.
 
 ### 🧮 Arrays & Hashing
 
@@ -225,11 +213,8 @@ Each folder includes:
 
 ## 🧾 Credits
 
-This collection is based on **The Pareto Problem Set** PDF created by **Aman** — a curated list of the most impactful LeetCode problems for mastering DSA fundamentals.
-
-Aman youtube channel: https://www.youtube.com/@AmanManazir
-
-Coding-interview *process* habits in the prep pack (clarify → brute → optimize → test) are aligned with industry whiteboard practice, including [Manara](https://support.manara.tech/knowledge/how-to-land-a-job-at-a-global-tech-company)’s technical track — **not** a full career/behavioral curriculum.
+- **The Pareto Problem Set** — Aman · https://www.youtube.com/@AmanManazir  
+- Live coding *process* habits in prep (clarify → brute → optimize → test) align with industry whiteboard practice, including [Manara](https://support.manara.tech/knowledge/how-to-land-a-job-at-a-global-tech-company)’s technical track — **not** a full career/behavioral curriculum.
 
 ---
 
