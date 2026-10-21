@@ -19,7 +19,8 @@ Gold standard: `01-Contains-Duplicate-…`. Create the next folder only when you
 - [ ] I know what **LeetCode** / an online judge does (Run vs Submit)  
 - [ ] I know what **TLE / WA / Accepted** mean  
 - [ ] I have a ritual to **read** a problem (goal → I/O → examples → constraints → edges)  
-- [ ] I know the playbook: **Understand → Brute → Improve → Test → Big O**  
+- [ ] I know the solve playbook: **Understand → Brute → Improve → Test → Big O**  
+- [ ] I know the live 6 steps (or I will tick **G** below)  
 
 ## 🔤 B · Vocabulary
 

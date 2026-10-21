@@ -117,6 +117,9 @@ flowchart LR
 | **Test** | Happy path + edges |
 | **Explain** | Time & space in Big O |
 
+> ℹ️ **5-step loop** = how you **solve** (solo LeetCode / this repo).  
+> **6-step live loop** (next section) = how you **speak** the same work in a whiteboard / shared-editor round. Same brain — different packaging.
+
 ---
 
 ### How **this repo** encodes the loop

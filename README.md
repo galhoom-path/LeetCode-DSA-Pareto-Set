@@ -9,9 +9,11 @@
 This repository is my **structured path through the 49 essential LeetCode problems** from **The Pareto Problem Set** — the high-ROI DSA patterns that show up again and again in interviews.
 
 > 📌 **Current state**  
-> - Prep pack (`00-Prep-Before-The-49/`) → **complete**  
+> - Prep pack (`00-Prep-Before-The-49/`) → **complete** (on-ramp + patterns + live coding habits)  
 > - Solutions → **one problem at a time** (I write the three `.c++` files; Cursor AI adds the three Mermaid charts)  
-> - Unchecked checklist items → **normal**, not missing work
+> - Gold standard folder → `01-Contains-Duplicate-…` (six files; Mermaid only)  
+> - Unchecked checklist items → **normal**, not missing work  
+> - No empty stubs for unsolved problems · no draw.io / PNG charts
 
 ---
 
@@ -58,6 +60,8 @@ No draw.io. No `.png` exports. Charts live as **Mermaid inside Markdown** so Git
 1. **🧩 Brute Force** — straightforward correct C++; prove you understand the statement (may be slow).  
 2. **⚡ Optimized** — better time and/or space than brute.  
 3. **🏆 Optimal** — best practical interview solution here (clarity + efficiency).
+
+In a **live** coding round, say the work out loud with the prep **6 steps** (clarify → examples → brute → optimize → code → test) — see [`02 · Live coding`](./00-Prep-Before-The-49/02-How-To-Practice.md#live-coding-interview--6-steps).
 
 ### The three flowcharts (Cursor AI)
 
@@ -224,6 +228,8 @@ Each folder includes:
 This collection is based on **The Pareto Problem Set** PDF created by **Aman** — a curated list of the most impactful LeetCode problems for mastering DSA fundamentals.
 
 Aman youtube channel: https://www.youtube.com/@AmanManazir
+
+Coding-interview *process* habits in the prep pack (clarify → brute → optimize → test) are aligned with industry whiteboard practice, including [Manara](https://support.manara.tech/knowledge/how-to-land-a-job-at-a-global-tech-company)’s technical track — **not** a full career/behavioral curriculum.
 
 ---
 

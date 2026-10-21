@@ -13,6 +13,12 @@ build/
 cmake-build-*/
 compile_commands.json
 
+# Flowcharts = Mermaid .md only (never commit draw.io / PNG charts)
+*.drawio
+*.drawio.bak
+**/flowchart*.png
+**/*-flowchart.png
+
 # IDE / OS
 .idea/
 .vscode/
