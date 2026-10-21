@@ -396,4 +396,6 @@ int lengthOfLongestSubstring(string s) {
 - [ ] I can read `ListNode*` / `TreeNode*` signatures  
 - [ ] If I use another language, I know what to map each container to
 
+**Need exact STL docs?** Start at [cppreference](https://en.cppreference.com/w/cpp). Curated links for *this* repo (only what the 49 use): [16 · C++ reference](./16-Ready-For-The-49-Checklist.md#c-reference-cppreference).
+
 Next → [05-Pattern-Map-For-The-49.md](./05-Pattern-Map-For-The-49.md) (then follow `Next →` through **06–16**).

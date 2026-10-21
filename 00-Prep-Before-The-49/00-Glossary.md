@@ -21,7 +21,7 @@ Deep dives live in the numbered sheets (`00`–`16`).
 | **Editorial** | Official/write-up solution (read *after* you try) | [02](./02-How-To-Practice.md) |
 | **Pattern** | Reusable approach (window, DFS, …) | [05](./05-Pattern-Map-For-The-49.md) |
 | **`Solution` class** | LeetCode’s method wrapper in C++ | [04](./04-Cpp-For-The-49.md) |
-| **STL** | C++ Standard Library containers (`vector`, `unordered_map`, …) | [04](./04-Cpp-For-The-49.md) |
+| **STL** | C++ Standard Library containers (`vector`, `unordered_map`, …) | [04](./04-Cpp-For-The-49.md), [cppreference](https://en.cppreference.com/w/cpp) |
 
 ---
 

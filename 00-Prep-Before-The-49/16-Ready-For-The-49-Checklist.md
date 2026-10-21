@@ -95,20 +95,41 @@ Stay inside topics that appear in the **49** (plus general LeetCode orientation)
 
 ---
 
-## C++ containers (match solutions)
+## C++ reference (cppreference)
 
-| Topic | Link |
-|:---|:---|
-| `unordered_map` | https://en.cppreference.com/w/cpp/container/unordered_map |
-| `unordered_set` | https://en.cppreference.com/w/cpp/container/unordered_set |
-| `stack` | https://en.cppreference.com/w/cpp/container/stack |
-| `queue` | https://en.cppreference.com/w/cpp/container/queue |
-| `priority_queue` | https://en.cppreference.com/w/cpp/container/priority_queue |
-| `vector` | https://en.cppreference.com/w/cpp/container/vector |
+Official STL docs — use when a sketch in [04](./04-Cpp-For-The-49.md) is clear but you need exact operations / complexity.
+
+**Hub:** [https://en.cppreference.com/w/cpp](https://en.cppreference.com/w/cpp)
+
+### Containers & adaptors (used in the 49)
+
+| Topic | Link | Where in the 49 |
+|:---|:---|:---|
+| `vector` | https://en.cppreference.com/w/cpp/container/vector | Arrays, grids, answers |
+| `string` | https://en.cppreference.com/w/cpp/string/basic_string | Palindrome, substrings (#9, #14–15) |
+| `unordered_set` | https://en.cppreference.com/w/cpp/container/unordered_set | Duplicates, visited (#1, #8, …) |
+| `unordered_map` | https://en.cppreference.com/w/cpp/container/unordered_map | Counts, Two Sum, clone map |
+| `stack` | https://en.cppreference.com/w/cpp/container/stack | Parentheses, monotonic (#16–18) |
+| `queue` | https://en.cppreference.com/w/cpp/container/queue | BFS, Kahn (#35–36, #48–49) |
+| `priority_queue` | https://en.cppreference.com/w/cpp/container/priority_queue | Top-K, stones (#5, #40–42) |
+
+### Algorithms & helpers (used in the 49)
+
+| Topic | Link | Use |
+|:---|:---|:---|
+| `<algorithm>` overview | https://en.cppreference.com/w/cpp/algorithm | Library index |
+| `sort` | https://en.cppreference.com/w/cpp/algorithm/sort | 3Sum, sort+scan (#2 Optimized style) |
+| `max` | https://en.cppreference.com/w/cpp/algorithm/max | Running best, tree depths |
+| `min` | https://en.cppreference.com/w/cpp/algorithm/min | Areas, bounds |
+| `greater` (min-heap) | https://en.cppreference.com/w/cpp/utility/functional/greater | `priority_queue<…, greater<int>>` |
+| `isalnum` | https://en.cppreference.com/w/cpp/string/byte/isalnum | Valid Palindrome (#9) |
+| `tolower` | https://en.cppreference.com/w/cpp/string/byte/tolower | Valid Palindrome (#9) |
+
+Skip the rest of cppreference for now (templates deep dive, concurrency, ranges… — not needed for these 49).
 
 ---
 
-## Algorithms
+## Algorithms (ideas, language-agnostic)
 
 | Topic | Link |
 |:---|:---|
@@ -129,8 +150,6 @@ Stay inside topics that appear in the **49** (plus general LeetCode orientation)
 ## Pareto list credit
 
 - **The Pareto Problem Set** — Aman · https://www.youtube.com/@AmanManazir  
-
----
 
 ---
 
