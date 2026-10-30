@@ -19,12 +19,12 @@ Solutions are in **C++**. Ideas are language-agnostic (translate the snippets if
 | Track | Bar | Count |
 |:---|:---|:---:|
 | Prep sheets (read + understand) | `░░░░░░░░░░` | **0 / 17** |
-| Pareto 49 (solved) | `█░░░░░░░░░` | **1 / 49** |
-| Combined | `░░░░░░░░░░` | **1 / 66** |
+| Pareto 49 (solved) | `█░░░░░░░░░` | **2 / 49** |
+| Combined | `░░░░░░░░░░` | **2 / 66** |
 
 ```text
   Prep     [░░░░░░░░░░]  0/17   ← tick each sheet as you finish reading
-  Problems [█░░░░░░░░░]  1/49   ← #1 done; continue one at a time
+  Problems [█░░░░░░░░░]  2/49   ← #1–#2 done; continue one at a time
 ```
 
 **How you know a prep file is done:** open it → tick **Read** + **Explain** at the top → tick the same line in [`PROGRESS.md`](./PROGRESS.md) → refresh the bars.
@@ -136,7 +136,7 @@ Create the next folder **only when you start that problem**.
 ### 🧮 Arrays & Hashing
 
 - [✅] 1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) · folder [`01-…`](./01-Contains-Duplicate-Arrays-Hashing-Easy/)
-- [ ] 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/)
+- [✅] 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/) · folder [`02-…`](./02-Valid-Anagram-Arrays-Hashing-Easy/)
 - [ ] 3. [Two Sum](https://leetcode.com/problems/two-sum/)
 - [ ] 4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
 - [ ] 5. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)

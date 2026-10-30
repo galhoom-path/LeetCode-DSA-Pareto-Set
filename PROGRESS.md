@@ -13,13 +13,13 @@
 | Track | Progress | Bar |
 |:---|:---:|:---|
 | **Prep sheets** (read + understand) | **0 / 17** | `░░░░░░░░░░` 0% |
-| **Pareto 49** (solved folders) | **1 / 49** | `█░░░░░░░░░` 2% |
-| **Combined** (prep + problems) | **1 / 66** | `░░░░░░░░░░` 2% |
+| **Pareto 49** (solved folders) | **2 / 49** | `█░░░░░░░░░` 4% |
+| **Combined** (prep + problems) | **2 / 66** | `░░░░░░░░░░` 3% |
 
 ```text
   Prep     [░░░░░░░░░░]  0/17
-  Problems [█░░░░░░░░░]  1/49   ← #1 Contains Duplicate done
-  Combined [░░░░░░░░░░]  1/66
+  Problems [█░░░░░░░░░]  2/49   ← #1–#2 done
+  Combined [░░░░░░░░░░]  2/66
 ```
 
 **How to redraw a 10-block bar:** `filled = round(10 * done / total)` → that many `█`, rest `░`.
@@ -71,7 +71,7 @@ Each sheet also has the same two boxes at the top — keep **this list** as the 
 ## 🧩 Pareto 49 · solve progress
 
 Tick `[✅]` on the checklist in root [`README.md`](./README.md#problem-checklist-49-problems) (source of truth).  
-Then update the **Problems** bar above to match (`1/49` today · `#1` done).
+Then update the **Problems** bar above to match (`2/49` today · `#1`–`#2` done).
 
 ---
 
