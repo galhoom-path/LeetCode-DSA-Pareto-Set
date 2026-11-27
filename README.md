@@ -2,7 +2,7 @@
 > This repository belongs to the **Galhoom Path** organization (**Study** · **Problem Solving** · **Interview Prep** · **Projects**).  
 > → [Organization home](https://github.com/galhoom-path)
 
-> ℹ️ **Authorship:** folders `03`–`11` hold AI-written solutions (added on the owner's request, 2026-11-27); folders `01`–`02` are the owner's own work. In the checklist, `[✅]` means a problem's six deliverables are complete, reviewed and accepted — **not** that the owner solved it personally. Who wrote what: [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md).
+> ℹ️ **Authorship:** folders `03`–`12` hold AI-written solutions (added on the owner's request, 2026-11-27); folders `01`–`02` are the owner's own work. In the checklist, `[✅]` means a problem's six deliverables are complete, reviewed and accepted — **not** that the owner solved it personally. Who wrote what: [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md).
 
 # 🧠 LeetCode DSA Pareto Set
 
@@ -21,12 +21,12 @@ Solutions are in **C++**. Ideas are language-agnostic (translate the snippets if
 | Track | Bar | Count |
 |:---|:---|:---:|
 | Prep sheets (read + understand) | `░░░░░░░░░░` | **0 / 17** |
-| Pareto 49 (deliverables complete) | `██░░░░░░░░` | **11 / 49** |
-| Combined | `██░░░░░░░░` | **11 / 66** |
+| Pareto 49 (deliverables complete) | `██░░░░░░░░` | **12 / 49** |
+| Combined | `██░░░░░░░░` | **12 / 66** |
 
 ```text
   Prep     [░░░░░░░░░░]  0/17   ← tick each sheet as you finish reading
-  Problems [██░░░░░░░░] 11/49   ← #1–#11 complete
+  Problems [██░░░░░░░░] 12/49   ← #1–#12 complete
 ```
 
 **How you know a prep file is done:** open it → tick **Read** + **Explain** at the top → tick the same line in [`PROGRESS.md`](./PROGRESS.md) → refresh the bars.
@@ -153,7 +153,7 @@ Create the next folder **only when you start that problem**.
 - [✅] 9. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) · folder [`09-…`](./09-Valid-Palindrome-Two-Pointers-Easy/)
 - [✅] 10. [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · folder [`10-…`](./10-Two-Sum-II-Input-Array-Is-Sorted-Two-Pointers-Medium/)
 - [✅] 11. [3Sum](https://leetcode.com/problems/3sum/) · folder [`11-…`](./11-3Sum-Two-Pointers-Medium/)
-- [ ] 12. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
+- [✅] 12. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/) · folder [`12-…`](./12-Container-With-Most-Water-Two-Pointers-Medium/)
 
 ---
 

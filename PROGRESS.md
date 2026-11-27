@@ -13,13 +13,13 @@
 | Track | Progress | Bar |
 |:---|:---:|:---|
 | **Prep sheets** (read + understand) | **0 / 17** | `░░░░░░░░░░` 0% |
-| **Pareto 49** (deliverables complete) | **11 / 49** | `██░░░░░░░░` 22% |
-| **Combined** (prep + problems) | **11 / 66** | `██░░░░░░░░` 17% |
+| **Pareto 49** (deliverables complete) | **12 / 49** | `██░░░░░░░░` 24% |
+| **Combined** (prep + problems) | **12 / 66** | `██░░░░░░░░` 18% |
 
 ```text
   Prep     [░░░░░░░░░░]  0/17
-  Problems [██░░░░░░░░] 11/49   ← #1–#11 complete
-  Combined [██░░░░░░░░] 11/66
+  Problems [██░░░░░░░░] 12/49   ← #1–#12 complete
+  Combined [██░░░░░░░░] 12/66
 ```
 
 **How to redraw a 10-block bar:** `filled = round(10 * done / total)` → that many `█`, rest `░`.
@@ -71,7 +71,7 @@ Each sheet also has the same two boxes at the top — keep **this list** as the 
 ## 🧩 Pareto 49 · solve progress
 
 `[✅]` on the checklist in root [`README.md`](./README.md#-problem-checklist-49-problems) (source of truth) means the problem's six deliverables are complete, reviewed and accepted. Who wrote each solution is recorded in [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md).  
-Then update the **Problems** bar above to match (`11/49` today · `#1`–`#11` complete).
+Then update the **Problems** bar above to match (`12/49` today · `#1`–`#12` complete).
 
 ---
 

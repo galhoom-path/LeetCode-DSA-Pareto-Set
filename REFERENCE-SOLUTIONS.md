@@ -1,7 +1,7 @@
 # 🤖 Reference solutions (AI-authored)
 
 > **AI-authored reference solutions**, written on the owner's explicit request (2026-11-27) on the branch `reference-solutions`.
-> On the owner's explicit request, references **#3–#10** were merged into `main` (2026-11-27). That branch was then deleted on the owner's request: `main` is the only branch, and no further references are written unless the owner asks. On the owner's next request, #11 was added directly on `main`.
+> On the owner's explicit request, references **#3–#10** were merged into `main` (2026-11-27). That branch was then deleted on the owner's request: `main` is the only branch, and no further references are written unless the owner asks. On the owner's next requests, #11–#12 were added directly on `main`.
 > These folders are **not** the owner's own solutions. Under the owner's checkbox policy (2026-11-27), the root README `[✅]` means "six deliverables complete, reviewed and accepted", so these problems are ticked there; the checklist carries no authorship label (owner's choice), and **this file is the authorship record**. The prep **Read** / **Explain** boxes and the prep lines in `PROGRESS.md` are never ticked by AI.
 
 ## How to use these references
@@ -10,7 +10,7 @@
   Solve #N yourself first  →  then open the #N reference folder  →  compare approaches
 ```
 
-**Authorship at a glance:** 👤 owner-authored = **#1–#2** · 🤖 AI-authored = **#3–#11** (each of their flowcharts also says "AI-authored reference").
+**Authorship at a glance:** 👤 owner-authored = **#1–#2** · 🤖 AI-authored = **#3–#12** (each of their flowcharts also says "AI-authored reference").
 
 ## Verification bar (every problem below marked ✅)
 
@@ -36,7 +36,7 @@
 | 9 | Valid Palindrome | 🤖 AI-authored · ✅ verified · [`09-…`](./09-Valid-Palindrome-Two-Pointers-Easy/) |
 | 10 | Two Sum II — Input Array Is Sorted | 🤖 AI-authored · ✅ verified · [`10-…`](./10-Two-Sum-II-Input-Array-Is-Sorted-Two-Pointers-Medium/) |
 | 11 | 3Sum | 🤖 AI-authored · ✅ verified · [`11-…`](./11-3Sum-Two-Pointers-Medium/) |
-| 12 | Container With Most Water | ⏳ |
+| 12 | Container With Most Water | 🤖 AI-authored · ✅ verified · [`12-…`](./12-Container-With-Most-Water-Two-Pointers-Medium/) |
 | 13 | Best Time to Buy and Sell Stock | ⏳ |
 | 14 | Longest Substring Without Repeating Characters | ⏳ |
 | 15 | Longest Repeating Character Replacement | ⏳ |
@@ -75,7 +75,7 @@
 | 48 | Course Schedule | ⏳ |
 | 49 | Course Schedule II | ⏳ |
 
-**Reference coverage:** 9 / 47 · **Next:** #12 Container With Most Water
+**Reference coverage:** 10 / 47 · **Next:** #13 Best Time to Buy and Sell Stock
 
 ## Prep pack fixes
 
