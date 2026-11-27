@@ -2,7 +2,7 @@
 > This repository belongs to the **Galhoom Path** organization (**Study** · **Problem Solving** · **Interview Prep** · **Projects**).  
 > → [Organization home](https://github.com/galhoom-path)
 
-> 🤖 **AI-authored reference solutions:** folders `03`–`11` hold AI-written references (added on the owner's request, 2026-11-27) to compare with *after* you solve. They are not your solves — the `[✅]` checklist below tracks only problems you solved yourself. Status: [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md).
+> 🤖 **AI-authored reference solutions:** folders `03`–`11` hold AI-written solutions (added on the owner's request, 2026-11-27); folders `01`–`02` are the owner's own work. In the checklist, `[✅]` means a problem's six deliverables are complete, reviewed and accepted — **not** that the owner solved it personally — and 🤖 marks the AI-authored ones. Details: [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md).
 
 # 🧠 LeetCode DSA Pareto Set
 
@@ -16,17 +16,17 @@ Solutions are in **C++**. Ideas are language-agnostic (translate the snippets if
 
 ## 📊 Progress (live tracker)
 
-> **You** tick boxes as you finish. Full dashboard → **[`PROGRESS.md`](./PROGRESS.md)**
+> Problem `[✅]` = the six deliverables are complete, reviewed and accepted (🤖 = AI-authored). Prep boxes are **yours alone**. Full dashboard → **[`PROGRESS.md`](./PROGRESS.md)**
 
 | Track | Bar | Count |
 |:---|:---|:---:|
 | Prep sheets (read + understand) | `░░░░░░░░░░` | **0 / 17** |
-| Pareto 49 (solved) | `█░░░░░░░░░` | **2 / 49** |
-| Combined | `░░░░░░░░░░` | **2 / 66** |
+| Pareto 49 (deliverables complete) | `██░░░░░░░░` | **11 / 49** |
+| Combined | `██░░░░░░░░` | **11 / 66** |
 
 ```text
   Prep     [░░░░░░░░░░]  0/17   ← tick each sheet as you finish reading
-  Problems [█░░░░░░░░░]  2/49   ← #1–#2 done; continue one at a time
+  Problems [██░░░░░░░░] 11/49   ← #1–#2 yours · #3–#11 🤖 AI-authored
 ```
 
 **How you know a prep file is done:** open it → tick **Read** + **Explain** at the top → tick the same line in [`PROGRESS.md`](./PROGRESS.md) → refresh the bars.
@@ -76,8 +76,8 @@ Each finished problem folder has **three C++ approaches** + **one Mermaid flowch
 
 | Work | Owner |
 |:---|:---|
-| `1-Brute-Force.c++` · `2-Optimized.c++` · `3-Optimal.c++` | **You** |
-| `1-Brute-Force.flowchart.md` · `2-Optimized.flowchart.md` · `3-Optimal.flowchart.md` | **Cursor AI** (from your C++) |
+| `1-Brute-Force.c++` · `2-Optimized.c++` · `3-Optimal.c++` | **You** — except problems marked 🤖, whose C++ is AI-authored ([`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md)) |
+| `1-Brute-Force.flowchart.md` · `2-Optimized.flowchart.md` · `3-Optimal.flowchart.md` | **AI** (from the matching C++) |
 
 No draw.io. No `.png` charts. Mermaid in Markdown → renders on GitHub and diffs cleanly.
 
@@ -102,8 +102,8 @@ Agent rules: [`AGENTS.md`](./AGENTS.md).
 LeetCode-DSA-Pareto-Set/
 ├── PROGRESS.md                ← your live bars + prep sheet ticks
 ├── 00-Prep-Before-The-49/     ← study reference (tick progress as you read)
-├── 01-…/                      ← one folder per solved / in-progress problem
-├── .cursor/rules/             ← C++ yours · Mermaid charts AI
+├── 01-…/                      ← one folder per completed / in-progress problem (🤖 = AI-authored)
+├── .cursor/rules/             ← C++ yours (unless 🤖) · Mermaid charts AI
 ├── AGENTS.md
 └── README.md
 ```
@@ -132,27 +132,27 @@ Create the next folder **only when you start that problem**.
 
 ## 📋 Problem Checklist (49 Problems)
 
-> New here? Finish [`00-Prep-Before-The-49`](./00-Prep-Before-The-49/) first (tick sheets in [`PROGRESS.md`](./PROGRESS.md)), then solve and mark `[✅]` top → bottom.  
-> After each solved folder, update the **Problems** bar in [`PROGRESS.md`](./PROGRESS.md).
+> New here? Finish [`00-Prep-Before-The-49`](./00-Prep-Before-The-49/) first (tick sheets in [`PROGRESS.md`](./PROGRESS.md)), then solve top → bottom.  
+> `[✅]` = the problem's six deliverables are complete, reviewed and accepted — not necessarily solved by you. 🤖 = AI-authored solution. After each accepted folder, update the **Problems** bar in [`PROGRESS.md`](./PROGRESS.md).
 
 ### 🧮 Arrays & Hashing
 
 - [✅] 1. [Contains Duplicate](https://leetcode.com/problems/contains-duplicate/) · folder [`01-…`](./01-Contains-Duplicate-Arrays-Hashing-Easy/)
 - [✅] 2. [Valid Anagram](https://leetcode.com/problems/valid-anagram/) · folder [`02-…`](./02-Valid-Anagram-Arrays-Hashing-Easy/)
-- [ ] 3. [Two Sum](https://leetcode.com/problems/two-sum/)
-- [ ] 4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/)
-- [ ] 5. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/)
-- [ ] 6. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/)
-- [ ] 7. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/)
-- [ ] 8. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/)
+- [✅] 3. [Two Sum](https://leetcode.com/problems/two-sum/) · folder [`03-…`](./03-Two-Sum-Arrays-Hashing-Easy/) · 🤖 AI-authored
+- [✅] 4. [Group Anagrams](https://leetcode.com/problems/group-anagrams/) · folder [`04-…`](./04-Group-Anagrams-Arrays-Hashing-Medium/) · 🤖 AI-authored
+- [✅] 5. [Top K Frequent Elements](https://leetcode.com/problems/top-k-frequent-elements/) · folder [`05-…`](./05-Top-K-Frequent-Elements-Arrays-Hashing-Medium/) · 🤖 AI-authored
+- [✅] 6. [Valid Sudoku](https://leetcode.com/problems/valid-sudoku/) · folder [`06-…`](./06-Valid-Sudoku-Arrays-Hashing-Medium/) · 🤖 AI-authored
+- [✅] 7. [Product of Array Except Self](https://leetcode.com/problems/product-of-array-except-self/) · folder [`07-…`](./07-Product-Of-Array-Except-Self-Arrays-Hashing-Medium/) · 🤖 AI-authored
+- [✅] 8. [Longest Consecutive Sequence](https://leetcode.com/problems/longest-consecutive-sequence/) · folder [`08-…`](./08-Longest-Consecutive-Sequence-Arrays-Hashing-Medium/) · 🤖 AI-authored
 
 ---
 
 ### 🔁 Two Pointers
 
-- [ ] 9. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/)
-- [ ] 10. [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/)
-- [ ] 11. [3Sum](https://leetcode.com/problems/3sum/)
+- [✅] 9. [Valid Palindrome](https://leetcode.com/problems/valid-palindrome/) · folder [`09-…`](./09-Valid-Palindrome-Two-Pointers-Easy/) · 🤖 AI-authored
+- [✅] 10. [Two Sum II — Input Array Is Sorted](https://leetcode.com/problems/two-sum-ii-input-array-is-sorted/) · folder [`10-…`](./10-Two-Sum-II-Input-Array-Is-Sorted-Two-Pointers-Medium/) · 🤖 AI-authored
+- [✅] 11. [3Sum](https://leetcode.com/problems/3sum/) · folder [`11-…`](./11-3Sum-Two-Pointers-Medium/) · 🤖 AI-authored
 - [ ] 12. [Container With Most Water](https://leetcode.com/problems/container-with-most-water/)
 
 ---

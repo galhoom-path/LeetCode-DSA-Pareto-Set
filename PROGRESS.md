@@ -1,8 +1,8 @@
 # 📊 Progress Tracker
 
-> **You** own every checkbox here. Tick when *you* honestly finished.  
-> Cursor AI must **not** mark these for you.  
-> After you tick, **refresh the bars** at the top (count the ✅ / checked boxes).
+> **Prep boxes are yours alone** — the sheet lines below and the Read / Explain boxes inside each sheet. AI never ticks them.  
+> The **Pareto 49** count follows the root README checklist, where `[✅]` means a problem's six deliverables are complete, reviewed and accepted — not necessarily solved by you (🤖 = AI-authored).  
+> After any tick, **refresh the bars** at the top (count the ✅ / checked boxes).
 
 ---
 
@@ -13,13 +13,13 @@
 | Track | Progress | Bar |
 |:---|:---:|:---|
 | **Prep sheets** (read + understand) | **0 / 17** | `░░░░░░░░░░` 0% |
-| **Pareto 49** (solved folders) | **2 / 49** | `█░░░░░░░░░` 4% |
-| **Combined** (prep + problems) | **2 / 66** | `░░░░░░░░░░` 3% |
+| **Pareto 49** (deliverables complete) | **11 / 49** | `██░░░░░░░░` 22% |
+| **Combined** (prep + problems) | **11 / 66** | `██░░░░░░░░` 17% |
 
 ```text
   Prep     [░░░░░░░░░░]  0/17
-  Problems [█░░░░░░░░░]  2/49   ← #1–#2 done
-  Combined [░░░░░░░░░░]  2/66
+  Problems [██░░░░░░░░] 11/49   ← #1–#2 yours · #3–#11 🤖 AI-authored
+  Combined [██░░░░░░░░] 11/66
 ```
 
 **How to redraw a 10-block bar:** `filled = round(10 * done / total)` → that many `█`, rest `░`.
@@ -70,8 +70,8 @@ Each sheet also has the same two boxes at the top — keep **this list** as the 
 
 ## 🧩 Pareto 49 · solve progress
 
-Tick `[✅]` on the checklist in root [`README.md`](./README.md#-problem-checklist-49-problems) (source of truth).  
-Then update the **Problems** bar above to match (`2/49` today · `#1`–`#2` done).
+`[✅]` on the checklist in root [`README.md`](./README.md#-problem-checklist-49-problems) (source of truth) means the problem's six deliverables are complete, reviewed and accepted. 🤖 marks AI-authored solutions ([`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md)).  
+Then update the **Problems** bar above to match (`11/49` today · `#1`–`#2` yours · `#3`–`#11` 🤖 AI-authored).
 
 ---
 
@@ -88,9 +88,9 @@ Then update the **Problems** bar above to match (`2/49` today · `#1`–`#2` don
 ```
 
 ```text
-  Finish a problem folder (#N)
+  Problem folder #N complete + accepted (all six files)
        ↓
-  Tick [✅] on root README checklist
+  Tick [✅] on root README checklist (add 🤖 if AI-authored)
        ↓
   Update Problems bar here (N/49)
 ```
@@ -103,4 +103,4 @@ Then update the **Problems** bar above to match (`2/49` today · `#1`–`#2` don
 |:---|:---|
 | [Prep pack README](./00-Prep-Before-The-49/README.md) | Study order |
 | [Root README](./README.md) | Repo home + 49 checklist |
-| [AGENTS.md](./AGENTS.md) | AI must not fake your progress |
+| [AGENTS.md](./AGENTS.md) | AI never ticks your prep boxes and always labels AI-authored work |

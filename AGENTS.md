@@ -1,6 +1,6 @@
 # 🤖 Agent guide — LeetCode DSA Pareto Set
 
-> **Owner-authorized exception (2026-11-27):** on the owner's explicit request, AI-authored reference solutions were written on the branch `reference-solutions`, and references #3–#10 were merged into `main`; #11 was then added directly on `main` on the owner's request. They are labeled AI-authored in [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md) and in every flowchart. Non-negotiable #1 below still applies to everything else: author no further solutions unless the owner explicitly asks, never tick the owner's progress boxes, and merge into `main` only on the owner's explicit request.
+> **Owner-authorized exception (2026-11-27):** on the owner's explicit request, AI-authored reference solutions were written on the branch `reference-solutions`, and references #3–#10 were merged into `main`; #11 was then added directly on `main` on the owner's request. They are labeled AI-authored (🤖) in the README checklist, in [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md) and in every flowchart. Non-negotiable #1 below still applies to everything else: author no further solutions unless the owner explicitly asks, and never present AI-authored code as the owner's.
 
 ## 🚫 Non-negotiables
 
@@ -25,15 +25,15 @@
 
 ## 📋 Checklist vs folders
 
-- Root README checklist tracks **solve** progress (`[✅]` / `[ ]`).  
+- Root README checklist (owner policy, 2026-11-27): `[✅]` = the problem's **six deliverables are complete, reviewed and accepted** — it does **not** mean the owner solved it personally. 🤖 marks AI-authored solutions (#3–#11 today); #1–#2 are the owner's own.  
 - [`PROGRESS.md`](./PROGRESS.md) tracks **prep reading** (17 sheets) + bars for prep / 49 / combined.  
 - A folder exists only for problems being worked or done — never empty 0-byte stubs for future numbers.
 
 ## 📊 Progress ownership
 
-- **Human** ticks prep sheet boxes, `PROGRESS.md` lines, and README `[✅]` when *they* finish.  
-- **Cursor must not** mark study/solve progress as done for the human.  
-- When the human finishes a problem folder (or asks to sync), Cursor may **recount** and refresh the bars in `PROGRESS.md` + root README to match the checklists.
+- **Human only:** prep sheet boxes (Read / Explain inside each sheet) and the prep lines in `PROGRESS.md`. AI never ticks these.  
+- **README `[✅]`:** may be ticked by AI only after all six deliverables exist and pass the technical audit (compile, tests, valid Mermaid) — and an AI-authored problem must carry 🤖. Never describe AI-authored code as written by the owner.  
+- After any tick, recount and refresh the bars in `PROGRESS.md` + root README to match the checklists.
 
 ## 🔄 Git / GitHub (automatic)
 

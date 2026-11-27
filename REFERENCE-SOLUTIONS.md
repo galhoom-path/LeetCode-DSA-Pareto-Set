@@ -2,7 +2,7 @@
 
 > **AI-authored reference solutions**, written on the owner's explicit request (2026-11-27) on the branch `reference-solutions`.
 > On the owner's explicit request, references **#3–#10** were merged into `main` (2026-11-27). That branch was then deleted on the owner's request: `main` is the only branch, and no further references are written unless the owner asks. On the owner's next request, #11 was added directly on `main`.
-> These folders are **not** the owner's own solutions. The owner's personal progress (`[✅]` in the root README, **Read** / **Explain** boxes, `PROGRESS.md`) is **never** ticked by AI.
+> These folders are **not** the owner's own solutions. Under the owner's checkbox policy (2026-11-27), the root README `[✅]` means "six deliverables complete, reviewed and accepted", so these problems are ticked there **and** marked 🤖 AI-authored. The prep **Read** / **Explain** boxes and the prep lines in `PROGRESS.md` are never ticked by AI.
 
 ## How to use these references
 
@@ -10,7 +10,7 @@
   Solve #N yourself first  →  then open the #N reference folder  →  compare approaches
 ```
 
-Folders `01`–`02` are the owner's own work. Folders listed below as `✅ verified` are AI references (each flowchart also says "AI-authored reference").
+**Authorship at a glance:** 👤 owner-authored = **#1–#2** · 🤖 AI-authored = **#3–#11** (each of their flowcharts also says "AI-authored reference").
 
 ## Verification bar (every problem below marked ✅)
 
@@ -21,21 +21,21 @@ Folders `01`–`02` are the owner's own work. Folders listed below as `✅ verif
 
 ## Status · checkpoint
 
-`Owner (main)` = the owner's own solution, unchanged. `✅ verified` = reference added and verified as above. `⏳` = not started.
+`👤 Owner-authored` = the owner's own solution, unchanged. `🤖 AI-authored · ✅ verified` = AI solution added and verified as above. `⏳` = not started.
 
-| # | Problem | Reference status |
+| # | Problem | Authorship · status |
 |:---:|:---|:---|
-| 1 | Contains Duplicate | Owner (main) — audited: all three compile clean and pass |
-| 2 | Valid Anagram | Owner (main) — audited: all three compile clean and pass |
-| 3 | Two Sum | ✅ verified · [`03-…`](./03-Two-Sum-Arrays-Hashing-Easy/) |
-| 4 | Group Anagrams | ✅ verified · [`04-…`](./04-Group-Anagrams-Arrays-Hashing-Medium/) |
-| 5 | Top K Frequent Elements | ✅ verified · [`05-…`](./05-Top-K-Frequent-Elements-Arrays-Hashing-Medium/) |
-| 6 | Valid Sudoku | ✅ verified · [`06-…`](./06-Valid-Sudoku-Arrays-Hashing-Medium/) |
-| 7 | Product of Array Except Self | ✅ verified · [`07-…`](./07-Product-Of-Array-Except-Self-Arrays-Hashing-Medium/) |
-| 8 | Longest Consecutive Sequence | ✅ verified · [`08-…`](./08-Longest-Consecutive-Sequence-Arrays-Hashing-Medium/) |
-| 9 | Valid Palindrome | ✅ verified · [`09-…`](./09-Valid-Palindrome-Two-Pointers-Easy/) |
-| 10 | Two Sum II — Input Array Is Sorted | ✅ verified · [`10-…`](./10-Two-Sum-II-Input-Array-Is-Sorted-Two-Pointers-Medium/) |
-| 11 | 3Sum | ✅ verified · [`11-…`](./11-3Sum-Two-Pointers-Medium/) |
+| 1 | Contains Duplicate | 👤 Owner-authored — audited: all three compile clean and pass |
+| 2 | Valid Anagram | 👤 Owner-authored — audited: all three compile clean and pass |
+| 3 | Two Sum | 🤖 AI-authored · ✅ verified · [`03-…`](./03-Two-Sum-Arrays-Hashing-Easy/) |
+| 4 | Group Anagrams | 🤖 AI-authored · ✅ verified · [`04-…`](./04-Group-Anagrams-Arrays-Hashing-Medium/) |
+| 5 | Top K Frequent Elements | 🤖 AI-authored · ✅ verified · [`05-…`](./05-Top-K-Frequent-Elements-Arrays-Hashing-Medium/) |
+| 6 | Valid Sudoku | 🤖 AI-authored · ✅ verified · [`06-…`](./06-Valid-Sudoku-Arrays-Hashing-Medium/) |
+| 7 | Product of Array Except Self | 🤖 AI-authored · ✅ verified · [`07-…`](./07-Product-Of-Array-Except-Self-Arrays-Hashing-Medium/) |
+| 8 | Longest Consecutive Sequence | 🤖 AI-authored · ✅ verified · [`08-…`](./08-Longest-Consecutive-Sequence-Arrays-Hashing-Medium/) |
+| 9 | Valid Palindrome | 🤖 AI-authored · ✅ verified · [`09-…`](./09-Valid-Palindrome-Two-Pointers-Easy/) |
+| 10 | Two Sum II — Input Array Is Sorted | 🤖 AI-authored · ✅ verified · [`10-…`](./10-Two-Sum-II-Input-Array-Is-Sorted-Two-Pointers-Medium/) |
+| 11 | 3Sum | 🤖 AI-authored · ✅ verified · [`11-…`](./11-3Sum-Two-Pointers-Medium/) |
 | 12 | Container With Most Water | ⏳ |
 | 13 | Best Time to Buy and Sell Stock | ⏳ |
 | 14 | Longest Substring Without Repeating Characters | ⏳ |
