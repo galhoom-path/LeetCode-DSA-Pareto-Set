@@ -33,7 +33,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 6 | Valid Sudoku | ✅ verified · [`06-…`](./06-Valid-Sudoku-Arrays-Hashing-Medium/) |
 | 7 | Product of Array Except Self | ✅ verified · [`07-…`](./07-Product-Of-Array-Except-Self-Arrays-Hashing-Medium/) |
 | 8 | Longest Consecutive Sequence | ✅ verified · [`08-…`](./08-Longest-Consecutive-Sequence-Arrays-Hashing-Medium/) |
-| 9 | Valid Palindrome | ⏳ |
+| 9 | Valid Palindrome | ✅ verified · [`09-…`](./09-Valid-Palindrome-Two-Pointers-Easy/) |
 | 10 | Two Sum II — Input Array Is Sorted | ⏳ |
 | 11 | 3Sum | ⏳ |
 | 12 | Container With Most Water | ⏳ |
@@ -75,7 +75,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 48 | Course Schedule | ⏳ |
 | 49 | Course Schedule II | ⏳ |
 
-**Reference coverage:** 6 / 47 · **Next:** #9 Valid Palindrome
+**Reference coverage:** 7 / 47 · **Next:** #10 Two Sum II — Input Array Is Sorted
 
 ## Prep pack fixes on this branch
 
