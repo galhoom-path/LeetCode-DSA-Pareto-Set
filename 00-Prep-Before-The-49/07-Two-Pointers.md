@@ -6,7 +6,7 @@
 - [ ] I **read** this sheet end-to-end
 - [ ] I can **explain** the main ideas without looking
 
-> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#prep-sheets--your-reading-progress) and refresh the bars.
+> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#-prep-sheets--your-reading-progress) and refresh the bars.
 
 ---
 > 📌 **At a glance**
@@ -77,10 +77,10 @@ flowchart TD
 
 ## ⏱️ Complexity
 
-| Approach | #9–10 | #11 | #12 |
-|:---|:---|:---|:---|
-| Brute | O(n²) pairs | O(n³) | O(n²) |
-| Two pointers | **O(n)** | **O(n²)** after sort | **O(n)** |
+| Approach | #9 | #10 | #11 | #12 |
+|:---|:---|:---|:---|:---|
+| Brute | O(n) time · O(n) space (cleaned copy + reverse) | O(n²) pairs | O(n³) | O(n²) |
+| Two pointers | **O(n)** time · **O(1)** space | **O(n)** | **O(n²)** after sort | **O(n)** |
 
 Space usually **O(1)** extra (plus output / sort may be O(n)).
 

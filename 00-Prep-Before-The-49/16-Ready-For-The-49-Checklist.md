@@ -6,7 +6,7 @@
 - [ ] I **read** this sheet end-to-end
 - [ ] I can **explain** the main ideas without looking
 
-> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#prep-sheets--your-reading-progress) and refresh the bars.
+> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#-prep-sheets--your-reading-progress) and refresh the bars.
 
 ---
 > 📌 **At a glance**  
@@ -89,7 +89,7 @@ Gold standard: `01-Contains-Duplicate-…`. Create the next folder only when you
 | Which pattern | [05](./05-Pattern-Map-For-The-49.md) |
 | A category | matching **06–15** |
 | DFS/BFS | [12](./12-Traversal-Recursion-Queue.md) |
-| Deeper docs | [Sources below](#sources) |
+| Deeper docs | [Sources below](#-sources) |
 
 ---
 

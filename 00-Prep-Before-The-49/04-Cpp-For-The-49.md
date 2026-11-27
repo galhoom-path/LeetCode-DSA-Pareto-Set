@@ -6,7 +6,7 @@
 - [ ] I **read** this sheet end-to-end
 - [ ] I can **explain** the main ideas without looking
 
-> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#prep-sheets--your-reading-progress) and refresh the bars.
+> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#-prep-sheets--your-reading-progress) and refresh the bars.
 
 ---
 > 📌 **At a glance**  
@@ -167,9 +167,11 @@ Used heavily in palindrome / substring problems (#9, #14, #15).
 ### 7 · Null pointers (lists & trees)
 
 ```cpp
-ListNode* p = nullptr;   // empty
-if (p == nullptr) { /* empty list / missing child */ }
-int v = p->val;          // only after null check
+ListNode* p = head;      // may be nullptr (empty list / missing child)
+if (p == nullptr) {
+    return;              // nothing to read
+}
+int v = p->val;          // safe: p is not null here
 ListNode* nxt = p->next;
 ```
 
