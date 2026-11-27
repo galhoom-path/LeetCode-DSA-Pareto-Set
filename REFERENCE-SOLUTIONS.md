@@ -1,7 +1,7 @@
 # 🤖 Reference solutions (AI-authored)
 
 > **AI-authored reference solutions**, written on the owner's explicit request (2026-11-27) on the branch `reference-solutions`.
-> On the owner's explicit request, references **#3–#10** were merged into `main` (2026-11-27). Later references stay on `reference-solutions` until the owner asks for another merge.
+> On the owner's explicit request, references **#3–#10** were merged into `main` (2026-11-27). That branch was then deleted on the owner's request: `main` is the only branch, and no further references are written unless the owner asks.
 > These folders are **not** the owner's own solutions. The owner's personal progress (`[✅]` in the root README, **Read** / **Explain** boxes, `PROGRESS.md`) is **never** ticked by AI.
 
 ## How to use these references
