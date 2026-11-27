@@ -30,7 +30,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 3 | Two Sum | ✅ verified · [`03-…`](./03-Two-Sum-Arrays-Hashing-Easy/) |
 | 4 | Group Anagrams | ✅ verified · [`04-…`](./04-Group-Anagrams-Arrays-Hashing-Medium/) |
 | 5 | Top K Frequent Elements | ✅ verified · [`05-…`](./05-Top-K-Frequent-Elements-Arrays-Hashing-Medium/) |
-| 6 | Valid Sudoku | ⏳ |
+| 6 | Valid Sudoku | ✅ verified · [`06-…`](./06-Valid-Sudoku-Arrays-Hashing-Medium/) |
 | 7 | Product of Array Except Self | ⏳ |
 | 8 | Longest Consecutive Sequence | ⏳ |
 | 9 | Valid Palindrome | ⏳ |
@@ -75,7 +75,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 48 | Course Schedule | ⏳ |
 | 49 | Course Schedule II | ⏳ |
 
-**Reference coverage:** 3 / 47 · **Next:** #6 Valid Sudoku
+**Reference coverage:** 4 / 47 · **Next:** #7 Product of Array Except Self
 
 ## Prep pack fixes on this branch
 
