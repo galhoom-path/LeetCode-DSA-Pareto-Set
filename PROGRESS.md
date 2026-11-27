@@ -70,7 +70,7 @@ Each sheet also has the same two boxes at the top — keep **this list** as the 
 
 ## 🧩 Pareto 49 · solve progress
 
-Tick `[✅]` on the checklist in root [`README.md`](./README.md#problem-checklist-49-problems) (source of truth).  
+Tick `[✅]` on the checklist in root [`README.md`](./README.md#-problem-checklist-49-problems) (source of truth).  
 Then update the **Problems** bar above to match (`2/49` today · `#1`–`#2` done).
 
 ---

@@ -6,7 +6,7 @@
 - [ ] I **read** this sheet end-to-end
 - [ ] I can **explain** the main ideas without looking
 
-> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#prep-sheets--your-reading-progress) and refresh the bars.
+> When both are checked → also tick this sheet in [PROGRESS.md](../PROGRESS.md#-prep-sheets--your-reading-progress) and refresh the bars.
 
 ---
 > 📌 **At a glance**
@@ -100,8 +100,11 @@ Used in #8 — only expand a streak from numbers that have `x-1` **missing**.
 
 | # | Typical Optimal time | Typical extra space |
 |:---:|:---|:---|
-| 1–4, 6, 8 | O(n) | O(n) |
+| 1, 3, 8 | O(n) | O(n) |
+| 2 | O(n) | O(1) — `count[26]` |
+| 4 | O(n·k) with a count key (O(n·k log k) with a sorted key) · `k` = word length | O(n·k) |
 | 5 | O(n) with buckets | O(n) |
+| 6 | O(1) — the board is always 9×9 (81 cells) | O(1) |
 | 7 | O(n) | O(1) extra if output excluded / or O(n) for answers |
 
 ---
