@@ -7,7 +7,7 @@ alwaysApply: true
 
 ## Division of labor
 
-- **Human:** writes and owns `1-Brute-Force.c++`, `2-Optimized.c++`, `3-Optimal.c++` — except folders marked 🤖 in the README checklist, whose C++ is AI-authored on the owner's request ([`REFERENCE-SOLUTIONS.md`](../../REFERENCE-SOLUTIONS.md)). Their charts say "AI-authored reference"; never attribute that code to the owner.
+- **Human:** writes and owns `1-Brute-Force.c++`, `2-Optimized.c++`, `3-Optimal.c++` — except the folders listed as AI-authored in [`REFERENCE-SOLUTIONS.md`](../../REFERENCE-SOLUTIONS.md), whose C++ was written by AI on the owner's request. Their charts say "AI-authored reference"; never attribute that code to the owner.
 - **Cursor AI:** writes and owns the matching Mermaid charts:
   - `1-Brute-Force.flowchart.md`
   - `2-Optimized.flowchart.md`

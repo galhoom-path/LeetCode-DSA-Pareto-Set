@@ -1,7 +1,7 @@
 # 📊 Progress Tracker
 
 > **Prep boxes are yours alone** — the sheet lines below and the Read / Explain boxes inside each sheet. AI never ticks them.  
-> The **Pareto 49** count follows the root README checklist, where `[✅]` means a problem's six deliverables are complete, reviewed and accepted — not necessarily solved by you (🤖 = AI-authored).  
+> The **Pareto 49** count follows the root README checklist, where `[✅]` means a problem's six deliverables are complete, reviewed and accepted — not necessarily solved by you (authorship: [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md)).  
 > After any tick, **refresh the bars** at the top (count the ✅ / checked boxes).
 
 ---
@@ -18,7 +18,7 @@
 
 ```text
   Prep     [░░░░░░░░░░]  0/17
-  Problems [██░░░░░░░░] 11/49   ← #1–#2 yours · #3–#11 🤖 AI-authored
+  Problems [██░░░░░░░░] 11/49   ← #1–#11 complete
   Combined [██░░░░░░░░] 11/66
 ```
 
@@ -70,8 +70,8 @@ Each sheet also has the same two boxes at the top — keep **this list** as the 
 
 ## 🧩 Pareto 49 · solve progress
 
-`[✅]` on the checklist in root [`README.md`](./README.md#-problem-checklist-49-problems) (source of truth) means the problem's six deliverables are complete, reviewed and accepted. 🤖 marks AI-authored solutions ([`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md)).  
-Then update the **Problems** bar above to match (`11/49` today · `#1`–`#2` yours · `#3`–`#11` 🤖 AI-authored).
+`[✅]` on the checklist in root [`README.md`](./README.md#-problem-checklist-49-problems) (source of truth) means the problem's six deliverables are complete, reviewed and accepted. Who wrote each solution is recorded in [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md).  
+Then update the **Problems** bar above to match (`11/49` today · `#1`–`#11` complete).
 
 ---
 
@@ -90,7 +90,7 @@ Then update the **Problems** bar above to match (`11/49` today · `#1`–`#2` yo
 ```text
   Problem folder #N complete + accepted (all six files)
        ↓
-  Tick [✅] on root README checklist (add 🤖 if AI-authored)
+  Tick [✅] on root README checklist (if AI-authored, record it in REFERENCE-SOLUTIONS.md)
        ↓
   Update Problems bar here (N/49)
 ```
@@ -103,4 +103,4 @@ Then update the **Problems** bar above to match (`11/49` today · `#1`–`#2` yo
 |:---|:---|
 | [Prep pack README](./00-Prep-Before-The-49/README.md) | Study order |
 | [Root README](./README.md) | Repo home + 49 checklist |
-| [AGENTS.md](./AGENTS.md) | AI never ticks your prep boxes and always labels AI-authored work |
+| [AGENTS.md](./AGENTS.md) | AI never ticks your prep boxes and records AI-authored work in REFERENCE-SOLUTIONS.md |

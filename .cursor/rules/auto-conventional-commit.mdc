@@ -42,5 +42,5 @@ Do **not** wait for the user to say “commit” or “push”. When the edit/fi
 - Never `push --force` to `main` unless the user explicitly demands it
 - Never rewrite git config
 - Never amend unless the usual amend safety rules all hold
-- Problem C++ solutions: human owns code unless the owner explicitly asks for an AI-authored solution (then mark it 🤖 and never present it as the owner's); don’t bulk-solve (see `AGENTS.md`)
+- Problem C++ solutions: human owns code unless the owner explicitly asks for an AI-authored solution (then record it in `REFERENCE-SOLUTIONS.md` and never present it as the owner's); don’t bulk-solve (see `AGENTS.md`)
 - README `[✅]` = six deliverables complete, reviewed and accepted; prep Read / Explain boxes are the owner's alone
