@@ -2,7 +2,7 @@
 > This repository belongs to the **Galhoom Path** organization (**Study** · **Problem Solving** · **Interview Prep** · **Projects**).  
 > → [Organization home](https://github.com/galhoom-path)
 
-> 🤖 **You are on the `reference-solutions` branch:** AI-authored reference solutions for comparison after you solve. Your own solutions and progress live on `main`. Status: [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md).
+> 🤖 **AI-authored reference solutions:** folders `03`–`10` hold AI-written references (merged on the owner's request, 2026-11-27) to compare with *after* you solve. They are not your solves — the `[✅]` checklist below tracks only problems you solved yourself. Status: [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md).
 
 # 🧠 LeetCode DSA Pareto Set
 

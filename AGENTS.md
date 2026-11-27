@@ -1,6 +1,6 @@
 # 🤖 Agent guide — LeetCode DSA Pareto Set
 
-> **Branch `reference-solutions` only:** the owner authorized AI-authored reference solutions on this branch (2026-11-27). Non-negotiable #1 below still governs `main`. Track the work in [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md), never tick the owner's progress boxes, and never merge or cherry-pick into `main` without the owner's explicit approval.
+> **Owner-authorized exception (2026-11-27):** on the owner's explicit request, AI-authored reference solutions were written on the branch `reference-solutions`, and references #3–#10 were merged into `main`. They are labeled AI-authored in [`REFERENCE-SOLUTIONS.md`](./REFERENCE-SOLUTIONS.md) and in every flowchart. Non-negotiable #1 below still applies to everything else: author no further solutions unless the owner explicitly asks, never tick the owner's progress boxes, and merge into `main` only on the owner's explicit request.
 
 ## 🚫 Non-negotiables
 

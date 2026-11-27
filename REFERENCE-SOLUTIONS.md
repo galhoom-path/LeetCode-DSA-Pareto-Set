@@ -1,16 +1,16 @@
-# 🤖 Reference solutions — branch `reference-solutions`
+# 🤖 Reference solutions (AI-authored)
 
-> **AI-authored reference solutions**, written on the owner's explicit request (2026-11-27).
-> `main` stays the owner's **hand-written** learning track. Nothing on this branch is merged or cherry-picked into `main` without the owner's explicit approval.
-> The owner's personal progress (`[✅]` in the root README, **Read** / **Explain** boxes, `PROGRESS.md`) is **never** ticked here.
+> **AI-authored reference solutions**, written on the owner's explicit request (2026-11-27) on the branch `reference-solutions`.
+> On the owner's explicit request, references **#3–#10** were merged into `main` (2026-11-27). Later references stay on `reference-solutions` until the owner asks for another merge.
+> These folders are **not** the owner's own solutions. The owner's personal progress (`[✅]` in the root README, **Read** / **Explain** boxes, `PROGRESS.md`) is **never** ticked by AI.
 
-## How to use this branch
+## How to use these references
 
 ```text
-  Solve #N yourself on main  →  then open this branch's #N folder  →  compare approaches
+  Solve #N yourself first  →  then open the #N reference folder  →  compare approaches
 ```
 
-View on GitHub: switch the branch selector to `reference-solutions`, or `git switch reference-solutions` locally.
+Folders `01`–`02` are the owner's own work. Folders listed below as `✅ verified` are AI references (each flowchart also says "AI-authored reference").
 
 ## Verification bar (every problem below marked ✅)
 
@@ -77,6 +77,6 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 
 **Reference coverage:** 8 / 47 · **Next:** #11 3Sum
 
-## Prep pack fixes on this branch
+## Prep pack fixes
 
-Commit `4698d1c` (`docs(prep): …`) fixes the prep pack's emoji-heading anchors, a null-pointer snippet in sheet 04, and the complexity tables in sheets 06 and 07. It touches no solution and no checkbox. The owner may cherry-pick that one commit onto `main`.
+Commit `4698d1c` (`docs(prep): …`) fixes the prep pack's emoji-heading anchors, a null-pointer snippet in sheet 04, and the complexity tables in sheets 06 and 07. It touches no solution and no checkbox, and it reached `main` with the #3–#10 merge.
