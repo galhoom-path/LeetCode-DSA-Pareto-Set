@@ -34,7 +34,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 7 | Product of Array Except Self | ✅ verified · [`07-…`](./07-Product-Of-Array-Except-Self-Arrays-Hashing-Medium/) |
 | 8 | Longest Consecutive Sequence | ✅ verified · [`08-…`](./08-Longest-Consecutive-Sequence-Arrays-Hashing-Medium/) |
 | 9 | Valid Palindrome | ✅ verified · [`09-…`](./09-Valid-Palindrome-Two-Pointers-Easy/) |
-| 10 | Two Sum II — Input Array Is Sorted | ⏳ |
+| 10 | Two Sum II — Input Array Is Sorted | ✅ verified · [`10-…`](./10-Two-Sum-II-Input-Array-Is-Sorted-Two-Pointers-Medium/) |
 | 11 | 3Sum | ⏳ |
 | 12 | Container With Most Water | ⏳ |
 | 13 | Best Time to Buy and Sell Stock | ⏳ |
@@ -75,7 +75,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 48 | Course Schedule | ⏳ |
 | 49 | Course Schedule II | ⏳ |
 
-**Reference coverage:** 7 / 47 · **Next:** #10 Two Sum II — Input Array Is Sorted
+**Reference coverage:** 8 / 47 · **Next:** #11 3Sum
 
 ## Prep pack fixes on this branch
 
