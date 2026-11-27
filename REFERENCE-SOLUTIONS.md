@@ -27,7 +27,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 |:---:|:---|:---|
 | 1 | Contains Duplicate | Owner (main) — audited: all three compile clean and pass |
 | 2 | Valid Anagram | Owner (main) — audited: all three compile clean and pass |
-| 3 | Two Sum | ⏳ |
+| 3 | Two Sum | ✅ verified · [`03-…`](./03-Two-Sum-Arrays-Hashing-Easy/) |
 | 4 | Group Anagrams | ⏳ |
 | 5 | Top K Frequent Elements | ⏳ |
 | 6 | Valid Sudoku | ⏳ |
@@ -75,7 +75,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 48 | Course Schedule | ⏳ |
 | 49 | Course Schedule II | ⏳ |
 
-**Reference coverage:** 0 / 47 · **Next:** #3 Two Sum
+**Reference coverage:** 1 / 47 · **Next:** #4 Group Anagrams
 
 ## Prep pack fixes on this branch
 
