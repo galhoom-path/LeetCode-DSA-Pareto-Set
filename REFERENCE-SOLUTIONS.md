@@ -29,7 +29,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 2 | Valid Anagram | Owner (main) — audited: all three compile clean and pass |
 | 3 | Two Sum | ✅ verified · [`03-…`](./03-Two-Sum-Arrays-Hashing-Easy/) |
 | 4 | Group Anagrams | ✅ verified · [`04-…`](./04-Group-Anagrams-Arrays-Hashing-Medium/) |
-| 5 | Top K Frequent Elements | ⏳ |
+| 5 | Top K Frequent Elements | ✅ verified · [`05-…`](./05-Top-K-Frequent-Elements-Arrays-Hashing-Medium/) |
 | 6 | Valid Sudoku | ⏳ |
 | 7 | Product of Array Except Self | ⏳ |
 | 8 | Longest Consecutive Sequence | ⏳ |
@@ -75,7 +75,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 48 | Course Schedule | ⏳ |
 | 49 | Course Schedule II | ⏳ |
 
-**Reference coverage:** 2 / 47 · **Next:** #5 Top K Frequent Elements
+**Reference coverage:** 3 / 47 · **Next:** #6 Valid Sudoku
 
 ## Prep pack fixes on this branch
 
