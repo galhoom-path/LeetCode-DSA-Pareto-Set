@@ -1,7 +1,7 @@
 # 🤖 Reference solutions (AI-authored)
 
 > **AI-authored reference solutions**, written on the owner's explicit request (2026-11-27) on the branch `reference-solutions`.
-> On the owner's explicit request, references **#3–#10** were merged into `main` (2026-11-27). That branch was then deleted on the owner's request: `main` is the only branch, and no further references are written unless the owner asks.
+> On the owner's explicit request, references **#3–#10** were merged into `main` (2026-11-27). That branch was then deleted on the owner's request: `main` is the only branch, and no further references are written unless the owner asks. On the owner's next request, #11 was added directly on `main`.
 > These folders are **not** the owner's own solutions. The owner's personal progress (`[✅]` in the root README, **Read** / **Explain** boxes, `PROGRESS.md`) is **never** ticked by AI.
 
 ## How to use these references
@@ -35,7 +35,7 @@ Folders `01`–`02` are the owner's own work. Folders listed below as `✅ verif
 | 8 | Longest Consecutive Sequence | ✅ verified · [`08-…`](./08-Longest-Consecutive-Sequence-Arrays-Hashing-Medium/) |
 | 9 | Valid Palindrome | ✅ verified · [`09-…`](./09-Valid-Palindrome-Two-Pointers-Easy/) |
 | 10 | Two Sum II — Input Array Is Sorted | ✅ verified · [`10-…`](./10-Two-Sum-II-Input-Array-Is-Sorted-Two-Pointers-Medium/) |
-| 11 | 3Sum | ⏳ |
+| 11 | 3Sum | ✅ verified · [`11-…`](./11-3Sum-Two-Pointers-Medium/) |
 | 12 | Container With Most Water | ⏳ |
 | 13 | Best Time to Buy and Sell Stock | ⏳ |
 | 14 | Longest Substring Without Repeating Characters | ⏳ |
@@ -75,7 +75,7 @@ Folders `01`–`02` are the owner's own work. Folders listed below as `✅ verif
 | 48 | Course Schedule | ⏳ |
 | 49 | Course Schedule II | ⏳ |
 
-**Reference coverage:** 8 / 47 · **Next:** #11 3Sum
+**Reference coverage:** 9 / 47 · **Next:** #12 Container With Most Water
 
 ## Prep pack fixes
 
