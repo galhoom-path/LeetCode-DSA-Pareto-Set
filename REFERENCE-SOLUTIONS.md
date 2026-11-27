@@ -28,7 +28,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 1 | Contains Duplicate | Owner (main) — audited: all three compile clean and pass |
 | 2 | Valid Anagram | Owner (main) — audited: all three compile clean and pass |
 | 3 | Two Sum | ✅ verified · [`03-…`](./03-Two-Sum-Arrays-Hashing-Easy/) |
-| 4 | Group Anagrams | ⏳ |
+| 4 | Group Anagrams | ✅ verified · [`04-…`](./04-Group-Anagrams-Arrays-Hashing-Medium/) |
 | 5 | Top K Frequent Elements | ⏳ |
 | 6 | Valid Sudoku | ⏳ |
 | 7 | Product of Array Except Self | ⏳ |
@@ -75,7 +75,7 @@ View on GitHub: switch the branch selector to `reference-solutions`, or `git swi
 | 48 | Course Schedule | ⏳ |
 | 49 | Course Schedule II | ⏳ |
 
-**Reference coverage:** 1 / 47 · **Next:** #4 Group Anagrams
+**Reference coverage:** 2 / 47 · **Next:** #5 Top K Frequent Elements
 
 ## Prep pack fixes on this branch
 
